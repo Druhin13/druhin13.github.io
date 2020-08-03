@@ -21,7 +21,7 @@
 .ml7 {
 	position: relative;
 	width: 100vw;
-	height: 51vh;
+/*	height: 51vh;*/
 }
 
 .ml7 .text-wrapper {
@@ -59,10 +59,25 @@ h1 {
 }
 
 .heading {
-	position: fixed;
+	position: absolute;
 	/* or absolute */
-	top: 50%;
+	top: 48%;
 	left: 50%;
 	/* bring your own prefixes */
+	transform: translate(-50%, -52%);
+}
+
+.scroll {
+	position: absolute;
+	/* or absolute */
+	left: 50%;
+	bottom: 5vh;
+	/* bring your own prefixes */
 	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #f0ebe6;
+	font-weight: 100;
+	font-family: 'Lato', serif;
+	opacity: 60%;
+	font-size: 1.8vh;
 }
