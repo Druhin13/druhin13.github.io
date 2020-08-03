@@ -347,37 +347,37 @@
 		}
 
 		switch (event.keyCode) {
-		case key.up:
-			y = -options.arrowScroll;
-			break;
-		case key.down:
-			y = options.arrowScroll;
-			break;
-		case key.spacebar: // (+ shift)
-			shift = event.shiftKey ? 1 : -1;
-			y = -shift * clientHeight * 0.9;
-			break;
-		case key.pageup:
-			y = -clientHeight * 0.9;
-			break;
-		case key.pagedown:
-			y = clientHeight * 0.9;
-			break;
-		case key.home:
-			y = -elem.scrollTop;
-			break;
-		case key.end:
-			var damt = elem.scrollHeight - elem.scrollTop - clientHeight;
-			y = (damt > 0) ? damt + 10 : 0;
-			break;
-		case key.left:
-			x = -options.arrowScroll;
-			break;
-		case key.right:
-			x = options.arrowScroll;
-			break;
-		default:
-			return true; // a key we don't care about
+			case key.up:
+				y = -options.arrowScroll;
+				break;
+			case key.down:
+				y = options.arrowScroll;
+				break;
+			case key.spacebar: // (+ shift)
+				shift = event.shiftKey ? 1 : -1;
+				y = -shift * clientHeight * 0.9;
+				break;
+			case key.pageup:
+				y = -clientHeight * 0.9;
+				break;
+			case key.pagedown:
+				y = clientHeight * 0.9;
+				break;
+			case key.home:
+				y = -elem.scrollTop;
+				break;
+			case key.end:
+				var damt = elem.scrollHeight - elem.scrollTop - clientHeight;
+				y = (damt > 0) ? damt + 10 : 0;
+				break;
+			case key.left:
+				x = -options.arrowScroll;
+				break;
+			case key.right:
+				x = options.arrowScroll;
+				break;
+			default:
+				return true; // a key we don't care about
 		}
 
 		scrollArray(elem, x, y);
@@ -487,7 +487,7 @@
 			window.webkitRequestAnimationFrame ||
 			function (callback, element, delay) {
 				window.setTimeout(callback, delay || (1000 / 60));
-		};
+			};
 	})();
 
 
