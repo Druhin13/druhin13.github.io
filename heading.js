@@ -33,7 +33,7 @@
 					translateX: ["0.55em", 0],
 					translateZ: 0,
 					rotateZ: [180, 0],
-					duration: 700,
+					duration: 600,
 					easing: "easeOutExpo",
 					delay: (el, i) => 50 * i
 				});
@@ -55,7 +55,7 @@
 					translateX: ["0.55em", 0],
 					translateZ: 0,
 					rotateZ: [180, 0],
-					duration: 900,
+					duration: 700,
 					easing: "easeOutExpo",
 					delay: (el, i) => 50 * i
 				});

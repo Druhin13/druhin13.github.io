@@ -20,6 +20,8 @@
 
 .ml7 {
 	position: relative;
+	width: 100vw;
+	height: 51vh;
 }
 
 .ml7 .text-wrapper {
