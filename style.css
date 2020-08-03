@@ -20,14 +20,12 @@
 
 .ml7 {
 	position: relative;
-	font-weight: 900;
-	font-size: 3.7em;
 }
 
 .ml7 .text-wrapper {
 	position: relative;
 	display: inline-block;
-	padding-top: 0.2em;
+	padding-top: 0;
 	padding-right: 0.05em;
 	padding-bottom: 0.1em;
 	overflow: hidden;
@@ -37,4 +35,15 @@
 	transform-origin: 0 100%;
 	display: inline-block;
 	line-height: 1em;
+}
+
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 14vh;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: center;
+	color: #f0ebe6;
+	font-weight: 100;
 }
