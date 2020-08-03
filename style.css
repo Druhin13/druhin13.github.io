@@ -84,9 +84,24 @@ h1 {
 
 
 .top {
+	position: absolute;
 	display: flex;
+	width: 100vw;
+	margin-top: 3vh;
+	position: fixed;
+	height: 5vh;
+	vertical-align: baseline;
 }
 
 #icon {
-	height: 8vh;
+	height: 6vh;
+	position: absolute;
+	right: 0;
+	width: 6vw;
+}
+
+.logo {
+	height: 4.5vh;
+	position: absolute;
+	left: 2vw;
 }
