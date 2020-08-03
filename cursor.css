@@ -22,7 +22,7 @@
 
 	color: transparent;
 
-	-webkit-text-stroke: 1px #E82424;
+	-webkit-text-stroke: 1px #B93E48;
 
 }
 
@@ -53,7 +53,7 @@
 
 	position: fixed;
 
-	background-color: #E82424;
+	background-color: #B93E48;
 
 	width: 10px;
 
@@ -135,7 +135,7 @@
 
 	border-width: 1px;
 
-	border-color: white;
+	border-color: #F0EBE6;
 
 }
 
