@@ -36,7 +36,7 @@
 .ml7 .letter {
 	transform-origin: 0 100%;
 	display: inline-block;
-	line-height: 1em;
+	line-height: 1.2em;
 }
 
 
@@ -44,8 +44,16 @@ h1 {
 	font-family: 'Playfair Display', serif;
 	font-size: 14vh;
 	line-height: 0.8;
-	letter-spacing: normal;
+/*	letter-spacing: normal;*/
 	text-align: center;
 	color: #f0ebe6;
 	font-weight: 100;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
 }
