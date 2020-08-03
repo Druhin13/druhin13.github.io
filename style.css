@@ -1,4 +1,9 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
+}
+
+.sec1 {
+	height: 100vh;
+	color: #131313;
 }
