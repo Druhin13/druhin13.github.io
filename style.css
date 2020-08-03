@@ -21,7 +21,7 @@
 .ml7 {
 	position: relative;
 	width: 100vw;
-/*	height: 51vh;*/
+	/*	height: 51vh;*/
 }
 
 .ml7 .text-wrapper {
@@ -80,4 +80,13 @@ h1 {
 	font-family: 'Lato', serif;
 	opacity: 60%;
 	font-size: 1.6vh;
+}
+
+
+.top {
+	display: flex;
+}
+
+#icon {
+	height: 8vh;
 }
