@@ -122,21 +122,33 @@
 	</div>
 
 
-	<div id="sec2" class="sec2">
+	<!--	<div id="sec2" class="sec2">-->
 
-		<div>
-			<div class="about-me">
-				<h2>About me</h2>
-				<h3>Hi! I'm Druhin, UX Designer from India, passionate about solving user problems by generating design ideas and prototyping them using the principles of <u><i>visual design</i></u>, <u><i>perception</i></u>, and <u><i>cognition</i></u> that form an effective <u><i>interaction design</i></u>.</h3>
-			</div>
-
-			<div class="about-me">
-				<h2>About me</h2>
-				<h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea</h3>
-			</div>
+	<div class="sec2">
+		<div class="about-me">
+			<h2>About me</h2>
+			<h3>Hi! I'm Druhin, UX Designer from India, passionate about solving user problems by generating design ideas and prototyping them using the principles of <u><i>visual design</i></u>, <u><i>perception</i></u>, and <u><i>cognition</i></u> that form an effective <u><i>interaction design</i></u>.</h3>
 		</div>
 
+		<div class="about-me">
+			<a href="/">
+				<h2>Social</h2>
+				<div id="open"></div>
+			</a>
+			<script>
+				var animation = bodymovin.loadAnimation({
+					container: document.getElementById('open'),
+					renderer: 'svg',
+					loop: false,
+					autoplay: false,
+					path: 'open.json' //name of the file (___.json)
+				})
+			</script>
+
+		</div>
 	</div>
+
+	<!--	</div>-->
 
 	<!--
 	<div class="sec3">

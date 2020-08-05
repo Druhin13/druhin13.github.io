@@ -4,7 +4,10 @@
 
 }
 
-body {}
+body {
+	background-color: #131313;
+	background-image: url(http://api.thumbr.it/whitenoise-500x500.png?background=13131300&noise=626262&density=10&opacity=10);
+}
 
 .all {
 	width: 100vw;
@@ -67,7 +70,7 @@ h1 {
 }
 
 .bold {
-	-webkit-text-stroke-width: 0.1vw;
+	-webkit-text-stroke-width: 0.05vw;
 	-webkit-text-stroke-color: #f0ebe6;
 	color: #f0ebe600;
 }
@@ -138,12 +141,14 @@ h1 {
 
 
 
+/*
 .sec2 {
 	width: 100%;
 	height: 100vh;
 	background-color: #131313;
 	background-image: url(http://api.thumbr.it/whitenoise-500x500.png?background=13131300&noise=626262&density=10&opacity=10);
 }
+*/
 
 
 .about-me {
