@@ -204,6 +204,10 @@ h1 {
 	text-align: center;
 }
 
+.social div {
+	display: flex;
+}
+
 .social h2 {
 	text-transform: uppercase;
 	font-family: 'Lato', serif;
@@ -224,8 +228,27 @@ h1 {
 	/*	line-height: 0.5;*/
 	/*	letter-spacing: normal;*/
 	text-align: left;
-	color: #f0ebe6;
+	color: #B93E48;
 	font-weight: 100;
 	/*	width: 45vw;*/
+/*	margin-left: 20vw;*/
+	font-weight: bold;
+	margin-right: 1vw;
+}
+
+.social div img {
+	width: 0.8vw;
+}
+
+
+.dribbble {
 	margin-left: 20vw;
+}
+
+.github {
+	margin-left: 3vw;
+}
+
+.instagram {
+	margin-left: 3vw;
 }
