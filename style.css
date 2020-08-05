@@ -29,6 +29,20 @@ a {
 
 
 
+/*video*/
+
+.uxbg {
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -52%);
+/*	opacity: 50%;*/
+}
+
+
+
+
 /*heading css*/
 
 .ml7 {
