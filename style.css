@@ -22,12 +22,10 @@ body {
 }
 
 
-/*
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 }
-*/
 
 
 
@@ -164,11 +162,11 @@ h1 {
 	font-size: 2.25vh;
 	/*	line-height: 0.5;*/
 	/*	letter-spacing: normal;*/
-	text-align: center;
+	text-align: left;
 	color: #f0ebe6;
 	font-weight: 100;
 	width: 8.5vw;
-	margin-left: 11vw;
+	margin-left: 12vw;
 }
 
 .about-me h3 {
@@ -187,6 +185,7 @@ h1 {
 
 
 
+/*
 
 
 
@@ -195,4 +194,38 @@ h1 {
 	height: 100vh;
 	background-color: #131313;
 	background-image: url(http://api.thumbr.it/whitenoise-500x500.png?background=13131300&noise=626262&density=10&opacity=10);
+}*/
+
+
+.social {
+	padding-top: 12.5vh;
+	display: flex;
+	width: 100vw;
+	text-align: center;
+}
+
+.social h2 {
+	text-transform: uppercase;
+	font-family: 'Lato', serif;
+	font-size: 2.25vh;
+	/*	line-height: 0.5;*/
+	/*	letter-spacing: normal;*/
+	text-align: left;
+	color: #f0ebe6;
+	font-weight: 100;
+	width: 8.5vw;
+	margin-left: 12vw;
+}
+
+.social h5 {
+	/*	text-transform: uppercase;*/
+	font-family: 'Lato', serif;
+	font-size: 2vh;
+	/*	line-height: 0.5;*/
+	/*	letter-spacing: normal;*/
+	text-align: left;
+	color: #f0ebe6;
+	font-weight: 100;
+	/*	width: 45vw;*/
+	margin-left: 20vw;
 }
