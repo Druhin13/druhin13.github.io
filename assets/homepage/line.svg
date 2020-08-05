@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"><title>Four Dash White Line</title><g><title>Layer 1</title><rect id="svg_5" width="60" height="5" x="0" y="27.5" fill="#fff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/></g></svg>
+<?xml version="1.0"?><svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+ <title>Four Dash White Line</title>
+
+ <g>
+  <title>Layer 1</title>
+  <rect height="5" width="60" y="27.5" x="0" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#ffffff" id="svg_5"/>
+ </g>
+</svg>
