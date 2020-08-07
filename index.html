@@ -7,7 +7,7 @@
 
 
 	<!--meta tags-->
-	<link rel="icon" href="assets/live.png" sizes="16x16">
+<!--	<link rel="icon" href="assets/live.png" sizes="16x16">-->
 	<meta property="og:site_name" content="Druhin Tarafder - Portfolio" />
 	<meta property="og:title" content="Druhin Tarafder - Portfolio" />
 	<meta property="og:description" content="Druhin Tarafder - UX Designer with some front-end coding skills - Portfolio" />
@@ -32,6 +32,13 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!--	<script src="smoothscroll.js"></script>-->
+	<!--
+	<script charset="utf-8">
+		luxy.init();
+	</script>
+-->
 
 
 </head>
@@ -64,125 +71,152 @@
 	<!--	*********************************************-->
 
 
-	<img class="uxbg" src="assets/homepage/3dbg.svg">
-
-
-	<!--	**********************************************-->
-
-
-	<div class="sec1">
-
-
-		<div class="top animate__animated animate__fadeInDown animate__delay-2s">
-
-
-			<a href="/">
-				<img alt="Druhin Tarafder logo" class="logo" id="logo" src="assets/homepage/logo.svg">
-			</a>
-
-
-			<a href="/">
-				<div id="icon"></div>
-			</a>
-
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin_light.js"></script>
-			<script>
-				var animation = bodymovin.loadAnimation({
-					container: document.getElementById('icon'),
-					renderer: 'svg',
-					loop: false,
-					autoplay: false,
-					path: 'menu1.json' //name of the file (___.json)
-				})
-			</script>
-
-		</div>
+<!--	<img class="uxbg" src="assets/homepage/3dbg.svg">-->
 
 
 
-		<h1 class="ml7 heading" alt="UX Designer with some front-end coding skills.">
-			<span class="text-wrapper">
-				<span class="letters">UX Designer</span>
-			</span>
-			<span class="text-wrapper">
-				<span class="letters2">with</span>
-			</span><br>
-			<span class="text-wrapper">
-				<span class="letters3">some </span>
-			</span>
-			<span class="text-wrapper">
-				<span class="letters4 italics">front-end</span>
-			</span><br>
-			<span class="text-wrapper">
-				<span class="letters5 bold">coding</span>
-			</span>
-			<span class="text-wrapper">
-				<span class="letters6">skills</span>
-			</span>
-		</h1>
+
+	<div class="scroll-container" id="scroll-container">
 
 
-		<a href="#sec2">
-			<h3 class="scroll animate__animated">SCROLL DOWN</h3>
-		</a>
 
-	</div>
+		<!--	**********************************************-->
 
 
-	<!--	<div id="sec2" class="sec2">-->
+		<div class="sec1 luxy-el">
 
-	<div class="sec2">
-		<div class="about-me">
-			<h2>About me</h2>
-			<h3>Hi! I'm Druhin, UX Designer from India, passionate about solving user problems by generating design ideas and prototyping them using the principles of <u><i>visual design</i></u>, <u><i>perception</i></u>, and <u><i>cognition</i></u> that form an effective <u><i>interaction design</i></u>.</h3>
-		</div>
 
-		<div class="social">
+			<div class="top animate__animated animate__fadeInDown animate__delay-2s">
 
-			<h2>Social</h2>
 
-			<div>
-				<a target="_blank" href="https://dribbble.com/druhin">
-					<div>
-						<h5 class="dribbble">DRIBBBLE</h5>
-						<img src="assets/homepage/arrow.svg">
-					</div>
+				<a href="/">
+					<img alt="Druhin Tarafder logo" class="logo" id="logo" src="assets/homepage/logo.svg">
 				</a>
 
-				<a target="_blank" href="https://github.com/Druhin13">
-					<div>
-						<h5 class="github">GITHUB</h5>
-						<img src="assets/homepage/arrow.svg">
-					</div>
+
+				<a href="/">
+					<div id="icon"></div>
 				</a>
 
-				<a target="_blank" href="https://www.instagram.com/druhintarafder/">
-					<div>
-						<h5 class="github">INSTAGRAM</h5>
-						<img src="assets/homepage/arrow.svg">
-					</div>
-				</a>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin_light.js"></script>
+				<script>
+					var animation = bodymovin.loadAnimation({
+						container: document.getElementById('icon'),
+						renderer: 'svg',
+						loop: false,
+						autoplay: false,
+						path: 'menu1.json' //name of the file (___.json)
+					})
+				</script>
+
 			</div>
 
+
+
+			<h1 class="ml7 heading" alt="UX Designer with some front-end coding skills.">
+				<span class="text-wrapper">
+					<span class="letters">UX Designer</span>
+				</span>
+				<span class="text-wrapper">
+					<span class="letters2">with</span>
+				</span><br>
+				<span class="text-wrapper">
+					<span class="letters3">some </span>
+				</span>
+				<span class="text-wrapper">
+					<span class="letters4 italics">front-end</span>
+				</span><br>
+				<span class="text-wrapper">
+					<span class="letters5 bold">coding</span>
+				</span>
+				<span class="text-wrapper">
+					<span class="letters6">skills</span>
+				</span>
+			</h1>
+
+
+			<a href="#sec2">
+				<h3 class="scroll animate__animated">SCROLL DOWN</h3>
+			</a>
+
 		</div>
+
+
+		<!--	<div id="sec2" class="sec2">-->
+
+		<div class="sec2 luxy-el">
+			<div class="about-me">
+				<h2>About me</h2>
+				<h3>Hi! I'm Druhin, UX Designer from India, passionate about solving user problems by generating design ideas and prototyping them using the principles of <u><i>visual design</i></u>, <u><i>perception</i></u>, and <u><i>cognition</i></u> that form an effective <u><i>interaction design</i></u>.</h3>
+			</div>
+
+			<div class="social">
+
+				<h2>Social</h2>
+
+				<div>
+					<div>
+						<a target="_blank" href="https://dribbble.com/druhin">
+							<div>
+								<h5 class="dribbble">DRIBBBLE</h5>
+								<img src="assets/homepage/arrow.svg">
+							</div>
+						</a>
+
+						<a target="_blank" href="https://github.com/Druhin13">
+							<div>
+								<h5 class="github">GITHUB</h5>
+								<img src="assets/homepage/arrow.svg">
+							</div>
+						</a>
+
+						<a target="_blank" href="https://www.instagram.com/druhintarafder/">
+							<div>
+								<h5 class="github">INSTAGRAM</h5>
+								<img src="assets/homepage/arrow.svg">
+							</div>
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="https://dribbble.com/druhin">
+							<div>
+								<h5 class="dribbble">DRIBBBLE</h5>
+								<img src="assets/homepage/arrow.svg">
+							</div>
+						</a>
+
+						<a target="_blank" href="https://github.com/Druhin13">
+							<div>
+								<h5 class="github">GITHUB</h5>
+								<img src="assets/homepage/arrow.svg">
+							</div>
+						</a>
+
+						<a target="_blank" href="https://www.instagram.com/druhintarafder/">
+							<div>
+								<h5 class="github">INSTAGRAM</h5>
+								<img src="assets/homepage/arrow.svg">
+							</div>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
 	</div>
-
-	<!--	</div>-->
-
-	<!--
-	<div class="sec3">
-
-	</div>
--->
 
 
 
 	<!--*********************************************-->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js" integrity="sha512-pCPP9sfLW9T7EZiw725jUl+ux032sjGhFE+ZAx00C1iO55ZmZJWpfNGbDf2ZF5b0UqxRqSW548PbZEWmH+S7pA==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous"></script>
 
 	<script src="heading.js"></script>
-	<script src="smoothscroll.js"></script>
+
 	<script src="cursor.js"></script>
 
 

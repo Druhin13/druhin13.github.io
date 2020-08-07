@@ -9,10 +9,17 @@ body {
 	background-image: url(assets/homepage/noise.png);
 }
 
-.all {
-	width: 100vw;
-	height: auto;
+/*
+.scroll-container {
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
 }
+*/
 
 .sec1 {
 	width: 100%;

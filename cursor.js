@@ -46,7 +46,7 @@ $(document).on({
 
 $(function () {
 
-	$(".text-cursor").lettering();
+//	$(".text-cursor").lettering();
 
 });
 
