@@ -78,7 +78,6 @@ h1 {
 	font-family: 'Playfair Display', serif;
 	font-size: 14vh;
 	line-height: 0.5;
-	/*	letter-spacing: inherit;*/
 	text-align: center;
 	color: #f0ebe6;
 	font-weight: 100;
@@ -158,7 +157,27 @@ h1 {
 
 
 
+.flex {
+	display: flex;
+}
 
+.about{
+	width: 100vw;
+	justify-content: center;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 14vh;
+	text-align: center;
+	color: #f0ebe6;
+	font-weight: 100;
+}
+
+.about img {
+	height: 19vh;
+	margin-right: 2.6vw;
+}
 
 /*
 .sec2 {
