@@ -100,18 +100,6 @@ h1 {
 
 
 
-/*
-.underline {
-	background-repeat: repeat-x;
-}
-
-.underline--bacon {
-	background-image: url(assets/homepage/line.svg);
-	background-position: 0 1.06em;
-	background-size: 28px 9px;
-}
-*/
-
 .heading {
 	position: absolute;
 	/* or absolute */
@@ -179,7 +167,6 @@ h1 {
 	background-color: #131313;
 	background-image: url(http://api.thumbr.it/whitenoise-500x500.png?background=13131300&noise=626262&density=10&opacity=10);
 }
-*/
 
 
 .about-me {
@@ -193,8 +180,8 @@ h1 {
 	text-transform: uppercase;
 	font-family: 'Lato', serif;
 	font-size: 2.25vh;
-	/*	line-height: 0.5;*/
-	/*	letter-spacing: normal;*/
+		line-height: 0.5;
+		letter-spacing: normal;
 	text-align: left;
 	color: #f0ebe6;
 	font-weight: 100;
@@ -203,17 +190,18 @@ h1 {
 }
 
 .about-me h3 {
-	/*	text-transform: uppercase;*/
+		text-transform: uppercase;
 	font-family: 'Lato', serif;
 	font-size: 4.85vh;
-	/*	line-height: 0.5;*/
-	/*	letter-spacing: normal;*/
+		line-height: 0.5;
+		letter-spacing: normal;
 	text-align: left;
 	color: #f0ebe6;
 	font-weight: 100;
 	width: 45vw;
 	margin-left: 20vw;
 }
+*/
 
 
 
@@ -230,6 +218,7 @@ h1 {
 }*/
 
 
+/*
 .social {
 	padding-top: 12.5vh;
 	display: flex;
@@ -245,8 +234,8 @@ h1 {
 	text-transform: uppercase;
 	font-family: 'Lato', serif;
 	font-size: 2.25vh;
-	/*	line-height: 0.5;*/
-	/*	letter-spacing: normal;*/
+		line-height: 0.5;
+		letter-spacing: normal;
 	text-align: left;
 	color: #f0ebe6;
 	font-weight: 100;
@@ -255,16 +244,16 @@ h1 {
 }
 
 .social h5 {
-	/*	text-transform: uppercase;*/
+		text-transform: uppercase;
 	font-family: 'Lato', serif;
 	font-size: 2vh;
-	/*	line-height: 0.5;*/
-	/*	letter-spacing: normal;*/
+		line-height: 0.5;
+		letter-spacing: normal;
 	text-align: left;
 	color: #B93E48;
 	font-weight: 100;
-	/*	width: 45vw;*/
-	/*	margin-left: 20vw;*/
+		width: 45vw;
+		margin-left: 20vw;
 	font-weight: bold;
 	margin-right: 1vw;
 }
@@ -285,3 +274,4 @@ h1 {
 .instagram {
 	margin-left: 3vw;
 }
+*/
