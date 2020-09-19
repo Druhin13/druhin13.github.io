@@ -1,67 +1,13 @@
-* {
-	margin: 0;
-	padding: 0;
+.rotate {
+	animation: rotation 12.5s infinite linear;
 }
 
-html {
-	background: url(assets/png/noise.png) repeat center center fixed;
-	/*
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-*/
-}
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
 
-.top {
-	display: flex;
-	width: 100vw;
-	margin-top: 4.3vh;
-	mix-blend-mode: exclusion;
-	position: fixed;
-}
-
-.logo,
-.top-p2 {
-	position: absolute;
-}
-
-.logo {
-	left: 0;
-	margin-left: 3vw;
-	height: 3.3vh;
-}
-
-.about,
-.resume {
-	height: 3.3vh;
-
-}
-
-.about{
-	margin-right: 4.6vw;
-}
-
-.top-p2 {
-	right: 0;
-	margin-right: 3vw;
-}
-
-.heading{
-	width: 94vw;
-	margin-left: 3vw;
-	margin-top: 18vh;
-}
-
-
-.category1{
-	display: block;
-}
-
-.title1{
-	height: 12vh;
-}
-
-.img1{
-	width: 30.4vw;
+	to {
+		transform: rotate(359deg);
+	}
 }
