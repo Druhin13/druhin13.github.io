@@ -1,4 +1,4 @@
-/* Generated on: Thu Oct 15 2020 02:35:01 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Oct 15 2020 07:21:07 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -146,7 +146,7 @@
 }
 
 .columns {
-  position: fixed;
+  position: absolute;
   width: 100vw;
   margin-top: 21.5vh;
 }
@@ -273,7 +273,7 @@
   position: absolute;
   max-width: 60%;
   margin-top: 280vh;
-  margin-left: 9.5vw;
+  margin-left: 8.75vw;
 }
 
 .text-block-6 {
@@ -284,6 +284,27 @@
   font-weight: 600;
   text-align: center;
   text-decoration: underline;
+}
+
+.columns-2 {
+  position: absolute;
+  width: 100vw;
+  margin-top: 300vh;
+}
+
+.column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 1920px) {
@@ -359,7 +380,8 @@
     line-height: 159px;
   }
   .image-2 {
-    margin-top: 285vh;
+    margin-top: 295vh;
+    margin-left: 8vw;
   }
 }
 
@@ -432,3 +454,4 @@
   font-style: normal;
   font-display: swap;
 }
+
