@@ -1,4 +1,4 @@
-/* Generated on: Thu Oct 15 2020 07:21:07 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Oct 16 2020 15:18:14 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -25,9 +25,7 @@
 .body {
   overflow: visible;
   height: 500vh;
-  background-image: url("https://uploads-ssl.webflow.com/5f806d5248caa732c5cbb94a/5f81ae90dc86b529b5518475_img-noise-1920x1080.png");
-  background-position: 0px 0px;
-  background-size: auto;
+  background-color: #131313;
 }
 
 .logo {
@@ -51,6 +49,7 @@
 
 .flex-div {
   position: fixed;
+  z-index: 50;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -153,7 +152,7 @@
 
 .columns.para2 {
   position: absolute;
-  margin-top: 190vh;
+  margin-top: 180vh;
 }
 
 .heading {
@@ -191,7 +190,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 0px 8.5vw 15vh 0px;
+  margin: 0px 7vw 15vh 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -272,8 +271,8 @@
 .image-2 {
   position: absolute;
   max-width: 60%;
-  margin-top: 280vh;
-  margin-left: 8.75vw;
+  margin-top: 272vh;
+  margin-left: 7vw;
 }
 
 .text-block-6 {
@@ -289,7 +288,7 @@
 .columns-2 {
   position: absolute;
   width: 100vw;
-  margin-top: 300vh;
+  margin-top: 287vh;
 }
 
 .column {
@@ -307,12 +306,19 @@
   align-items: center;
 }
 
+.background-video-2 {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #131313;
+  opacity: 0.2;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 @media screen and (min-width: 1920px) {
   .body {
     height: 500vh;
-    background-image: url("https://uploads-ssl.webflow.com/5f806d5248caa732c5cbb94a/5f81ae90dc86b529b5518475_img-noise-1920x1080.png");
-    background-position: 0px 0px;
-    background-size: auto;
   }
   .logo {
     font-size: 2.25vw;
@@ -380,8 +386,12 @@
     line-height: 159px;
   }
   .image-2 {
-    margin-top: 295vh;
+    width: 500px;
+    margin-top: 290vh;
     margin-left: 8vw;
+  }
+  .columns-2 {
+    margin-top: 305vh;
   }
 }
 
@@ -404,8 +414,34 @@
   .nav-text.centre-in-div.menu-home {
     font-size: 1.8vw;
   }
+  .columns.para2 {
+    margin-top: 105vh;
+  }
   .heading {
     line-height: 80px;
+  }
+  .heading.para2 {
+    line-height: 75px;
+  }
+  .scroll {
+    margin-bottom: 40vh;
+  }
+  .image {
+    width: 135px;
+  }
+  .video {
+    margin-top: 50vh;
+  }
+  .image-2 {
+    width: 260px;
+    margin-top: 160vh;
+    margin-left: 6vw;
+  }
+  .columns-2 {
+    margin-top: 160vh;
+  }
+  .image-3 {
+    width: 80px;
   }
 }
 
@@ -439,6 +475,14 @@
     font-size: 12vw;
     line-height: 50px;
   }
+  .video {
+    width: 80%;
+    margin-top: 37vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
 }
 @font-face {
   font-family: 'Effloresce';
@@ -454,4 +498,3 @@
   font-style: normal;
   font-display: swap;
 }
-
