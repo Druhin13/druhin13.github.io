@@ -1,4 +1,4 @@
-/* Generated on: Fri Oct 16 2020 15:18:14 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Oct 16 2020 16:02:33 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -469,19 +469,49 @@
     font-size: 5vw;
   }
   .columns {
-    margin-top: 15vh;
+    margin-top: 17.5vh;
+  }
+  .columns.para2 {
+    margin-top: 75vh;
   }
   .heading {
     font-size: 12vw;
     line-height: 50px;
   }
+  .heading.para2 {
+    font-size: 10vw;
+    line-height: 45px;
+  }
+  .scroll {
+    margin-right: 3vw;
+    margin-bottom: 20vh;
+  }
+  .image {
+    width: 95px;
+  }
+  .text-block-3 {
+    font-size: 3.25vw;
+  }
   .video {
     width: 80%;
-    margin-top: 37vh;
+    margin-top: 39.5vh;
     margin-right: 10%;
     margin-left: 10%;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .image-2 {
+    margin-top: 125vh;
+    margin-left: 3vw;
+  }
+  .text-block-6 {
+    font-size: 3.75vw;
+  }
+  .columns-2 {
+    margin-top: 118vh;
+  }
+  .image-3 {
+    width: 65px;
   }
 }
 @font-face {
