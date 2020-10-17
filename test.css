@@ -1,4 +1,4 @@
-/* Generated on: Fri Oct 16 2020 16:02:33 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Oct 17 2020 06:03:48 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -25,7 +25,7 @@
 .body {
   overflow: visible;
   height: 500vh;
-  background-color: #131313;
+  background-color: #000;
 }
 
 .logo {
@@ -224,9 +224,10 @@
 
 .video {
   position: absolute;
-  display: block;
+  display: none;
   overflow: hidden;
   width: 75%;
+  height: 75%;
   margin-top: 80vh;
   margin-right: 12.5%;
   margin-left: 12.5%;
@@ -243,6 +244,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  opacity: 1;
 }
 
 .text-block-5 {
@@ -311,9 +313,19 @@
   width: 100vw;
   height: 100vh;
   background-color: #131313;
-  opacity: 0.2;
-  -o-object-fit: cover;
-  object-fit: cover;
+  opacity: 0.25;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
+}
+
+.reel {
+  position: absolute;
+  z-index: 998;
+  width: 75%;
+  height: 80%;
+  margin-top: 90vh;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
 }
 
 @media screen and (min-width: 1920px) {
@@ -502,7 +514,7 @@
   }
   .image-2 {
     margin-top: 125vh;
-    margin-left: 3vw;
+    margin-left: 2.5vw;
   }
   .text-block-6 {
     font-size: 3.75vw;
