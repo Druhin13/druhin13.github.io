@@ -1,4 +1,4 @@
-/* Generated on: Sat Oct 17 2020 06:33:14 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Oct 17 2020 12:40:35 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -436,7 +436,7 @@
     line-height: 75px;
   }
   .scroll {
-    margin-bottom: 40vh;
+    margin-bottom: 42vh;
   }
   .image {
     width: 135px;
@@ -534,6 +534,10 @@
   .image-3 {
     width: 65px;
   }
+  .reel {
+    height: 22.5%;
+    margin-top: 42.5vh;
+  }
 }
 @font-face {
   font-family: 'Effloresce';
@@ -549,4 +553,3 @@
   font-style: normal;
   font-display: swap;
 }
-
