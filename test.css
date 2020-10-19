@@ -1,4 +1,4 @@
-/* Generated on: Mon Oct 19 2020 14:45:36 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Oct 19 2020 15:36:11 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -454,6 +454,9 @@
   .video {
     margin-top: 50vh;
   }
+  .text-span-4 {
+    border-bottom-width: 2.5px;
+  }
   .image-2 {
     width: 260px;
     margin-top: 160vh;
@@ -530,6 +533,9 @@
     margin-left: 10%;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .text-span-4 {
+    border-bottom-width: 1.75px;
   }
   .image-2 {
     margin-top: 135vh;
