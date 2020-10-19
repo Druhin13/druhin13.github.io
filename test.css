@@ -1,4 +1,4 @@
-/* Generated on: Mon Oct 19 2020 15:36:11 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Oct 19 2020 15:52:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -414,6 +414,9 @@
   }
   .columns-2 {
     margin-top: 305vh;
+  }
+  .reel {
+    margin-top: 92vh;
   }
 }
 
