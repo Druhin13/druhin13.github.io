@@ -8465,6 +8465,68 @@ Webflow.require('ix2').init({
 				"effectIn": null
 			},
 			"createdOn": 1603167183761
+		},
+		"e-22": {
+			"id": "e-22",
+			"name": "",
+			"eventTypeId": "SCROLL_INTO_VIEW",
+			"action": {
+				"id": "",
+				"actionTypeId": "FADE_EFFECT",
+				"config": {
+					"actionListId": "fadeIn",
+					"autoStopEventId": "e-23"
+				},
+				"instant": false
+			},
+			"mediaQueries": ["main", "medium", "small", "tiny"],
+			"target": {
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": [],
+				"id": "5f806d5248caa71d55cbb94b|0eda4eae-18dc-1853-f55d-dc4e4b7ce270"
+			},
+			"targets": [],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": 0,
+				"scrollOffsetUnit": "%",
+				"delay": 500,
+				"direction": null,
+				"effectIn": true
+			},
+			"createdOn": 1603179232688
+		},
+		"e-24": {
+			"id": "e-24",
+			"name": "",
+			"eventTypeId": "SCROLL_INTO_VIEW",
+			"action": {
+				"id": "",
+				"actionTypeId": "FADE_EFFECT",
+				"config": {
+					"actionListId": "fadeIn",
+					"autoStopEventId": "e-25"
+				},
+				"instant": false
+			},
+			"mediaQueries": ["main", "medium", "small", "tiny"],
+			"target": {
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": [],
+				"id": "5f806d5248caa71d55cbb94b|4d39d0e9-9603-054d-8e7b-e76e139453c5"
+			},
+			"targets": [],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": 0,
+				"scrollOffsetUnit": "%",
+				"delay": 500,
+				"direction": null,
+				"effectIn": true
+			},
+			"createdOn": 1603201152421
 		}
 	},
 	"actionLists": {
@@ -8922,6 +8984,40 @@ Webflow.require('ix2').init({
 					}
 				}]
 			}]
+		},
+		"fadeIn": {
+			"id": "fadeIn",
+			"useFirstGroupAsInitialState": true,
+			"actionItemGroups": [{
+				"actionItems": [{
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"duration": 0,
+						"target": {
+							"id": "N/A",
+							"appliesTo": "TRIGGER_ELEMENT",
+							"useEventTarget": true
+						},
+						"value": 0
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "outQuart",
+						"duration": 1000,
+						"target": {
+							"id": "N/A",
+							"appliesTo": "TRIGGER_ELEMENT",
+							"useEventTarget": true
+						},
+						"value": 1
+					}
+				}]
+			}]
 		}
 	},
 	"site": {
@@ -8944,4 +9040,3 @@ Webflow.require('ix2').init({
 		}]
 	}
 });
-
