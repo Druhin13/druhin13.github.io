@@ -1,4 +1,4 @@
-/* Generated on: Mon Oct 19 2020 15:52:32 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Oct 20 2020 05:31:58 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -322,11 +322,11 @@
 .reel {
   position: absolute;
   z-index: 49;
-  width: 75%;
+  width: 80%;
   height: 80%;
   margin-top: 90vh;
-  margin-right: 12.5%;
-  margin-left: 12.5%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .bg-image {
@@ -416,7 +416,19 @@
     margin-top: 305vh;
   }
   .reel {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 92vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -554,11 +566,11 @@
     width: 65px;
   }
   .reel {
-    width: 85%;
+    width: 80%;
     height: 30%;
     margin-top: 45vh;
-    margin-right: 7.5%;
-    margin-left: 7.5%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 }
 @font-face {
@@ -575,3 +587,4 @@
   font-style: normal;
   font-display: swap;
 }
+
