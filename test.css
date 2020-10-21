@@ -1,4 +1,4 @@
-/* Generated on: Tue Oct 20 2020 14:08:13 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Oct 21 2020 17:27:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -24,7 +24,7 @@
 
 .body {
   overflow: visible;
-  height: 500vh;
+  height: 700vh;
   background-color: #131313;
 }
 
@@ -404,15 +404,123 @@
 
 .text-block-9 {
   margin-top: 10px;
+  opacity: 0.8;
   font-family: Poppins, sans-serif;
   color: #e2e2e2;
   font-size: 1vw;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.sunglass-emoji {
+  position: absolute;
+  width: 100vw;
+  margin-top: 410vh;
+}
+
+.columns-5 {
+  position: absolute;
+  width: 100vw;
+  margin-top: 456vh;
+  margin-right: 0vw;
+  margin-left: 0vw;
+}
+
+.column-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.column-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.column-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-10 {
+  position: absolute;
+  margin-top: 450vh;
+  font-family: Poppins, sans-serif;
+  color: #e2e2e2;
+  font-size: 1vw;
+  font-weight: 600;
+  text-decoration: underline;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.columns-6 {
+  position: absolute;
+  width: 100vw;
+  margin-top: 450vh;
+}
+
+.text-block-11 {
+  font-family: Poppins, sans-serif;
+  color: #e2e2e2;
+  font-size: 1vw;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.image-5 {
+  max-width: 65%;
+  margin-right: -4vw;
+}
+
+.image-6 {
+  max-width: 65%;
+}
+
+.image-7 {
+  max-width: 65%;
+  margin-left: -4vw;
+  padding-left: 0px;
 }
 
 @media screen and (min-width: 1920px) {
   .body {
-    height: 500vh;
+    height: 700vh;
   }
   .logo {
     font-size: 2.25vw;
@@ -502,6 +610,9 @@
     -ms-flex-align: center;
     align-items: center;
   }
+  .sunglass-emoji {
+    margin-top: 410vh;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -563,6 +674,9 @@
     margin-left: 10%;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .sunglass-emoji {
+    margin-top: 160vh;
   }
 }
 
@@ -644,6 +758,9 @@
     margin-right: 10%;
     margin-left: 10%;
   }
+  .sunglass-emoji {
+    margin-top: 127vh;
+  }
 }
 @font-face {
   font-family: 'Effloresce';
@@ -659,3 +776,4 @@
   font-style: normal;
   font-display: swap;
 }
+
