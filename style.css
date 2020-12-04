@@ -1,4 +1,4 @@
-/* Generated on: Sun Nov 29 2020 12:03:53 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Dec 04 2020 15:05:29 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2287,6 +2287,18 @@ textarea.w-select {
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+.w-layout-grid {
+	display: -ms-grid;
+	display: grid;
+	grid-auto-columns: 1fr;
+	-ms-grid-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	-ms-grid-rows: auto auto;
+	grid-template-rows: auto auto;
+	grid-row-gap: 16px;
+	grid-column-gap: 16px;
+}
+
 .container {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -2328,7 +2340,7 @@ textarea.w-select {
 }
 
 .column-2 {
-	height: 242vh;
+	height: 250vh;
 	padding-right: 0px;
 	padding-left: 0px;
 	border-bottom: 1.5px solid #131313;
@@ -2344,12 +2356,11 @@ textarea.w-select {
 }
 
 .div-block.slideshow {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 10vh;
+	position: relative;
+	top: 0vh;
 	width: 100%;
-	height: 90vh;
-	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fbfcfb3de7eecd6adcb1007_hero%20girl.png");
+	height: 100%;
+	background-image: none;
 	text-align: center;
 }
 
@@ -2358,7 +2369,7 @@ textarea.w-select {
 }
 
 .column-3 {
-	height: 242vh;
+	height: 250vh;
 	padding-right: 0px;
 	padding-left: 0px;
 	border-style: none solid solid;
@@ -2437,6 +2448,10 @@ textarea.w-select {
 
 .div-block-4.bigname {
 	margin-top: 12vh;
+	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc0a8c50af8900d170c691d_big%20name.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
 }
 
 .div-block-5 {
@@ -2474,11 +2489,19 @@ textarea.w-select {
 }
 
 .text-block-2.cs {
+	margin-top: 7vh;
 	font-family: 'Playfair Display', sans-serif;
 	font-size: 35px;
 	line-height: 45px;
 	font-weight: 400;
 	text-transform: capitalize;
+}
+
+.text-block-2.brands-h {
+	margin-top: 3.5vh;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 }
 
 .div-block-6 {
@@ -2572,6 +2595,13 @@ textarea.w-select {
 	line-height: 45px;
 }
 
+.text-block-3.feedback {
+	font-size: 35px;
+	line-height: 45px;
+	font-style: italic;
+	font-weight: 500;
+}
+
 .text-block-4 {
 	font-family: Montserrat, sans-serif;
 	color: #131313;
@@ -2643,6 +2673,7 @@ textarea.w-select {
 
 .column-9 {
 	height: 55vh;
+	padding-right: 0px;
 	padding-left: 0px;
 	border-bottom: 1.5px solid #131313;
 }
@@ -2653,13 +2684,141 @@ textarea.w-select {
 	border-right: 1.5px solid #131313;
 }
 
+.grid {
+	width: 35vw;
+	height: 35vh;
+	margin: 7vh auto 0vh;
+	-webkit-box-align: stretch;
+	-webkit-align-items: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	-ms-grid-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	opacity: 0.6;
+}
+
+.div-block-11 {
+	border: 1.5px none #131313;
+	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc39213c145ac5cb0d6de8d_brand1.svg");
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.div-block-12 {
+	border: 1.5px none #131313;
+	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc3924e7c62835beeba69a4_brand3.svg");
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.div-block-13 {
+	border: 1.5px none #131313;
+	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc3924e51c3f8cd0576f11f_brand2.svg");
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.div-block-14 {
+	border: 1.5px none #131313;
+	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc3924f9033fb486e700870_brand5.svg");
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.div-block-15 {
+	border: 1.5px none #131313;
+	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc3924e9033fb5e9770086f_brand4.svg");
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.div-block-16 {
+	border: 1.5px none #131313;
+	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc3924e60969872730ca291_brand6.svg");
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.div-block-17 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 40vh;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-bottom: 1.5px solid #131313;
+}
+
+.text-block-5 {
+	border-right: 1.5px solid #131313;
+	font-family: 'Playfair Display', sans-serif;
+	color: #131313;
+	font-size: 300px;
+	line-height: 200px;
+	font-weight: 500;
+	text-align: left;
+	white-space: normal;
+}
+
+.div-block-18 {
+	width: 10vw;
+	height: 20vh;
+	margin-top: 0vh;
+	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc3b38495ca8025eeedc74e_quote.svg");
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.div-block-19 {
+	height: 20vh;
+	margin-right: 3vw;
+	margin-left: 3vw;
+	border-left: 1.5px solid #131313;
+}
+
+.text-block-6 {
+	margin-top: 3.5vh;
+	font-family: Montserrat, sans-serif;
+	color: #131313;
+	font-size: 15px;
+	line-height: 11px;
+}
+
+.text-span-2 {
+	font-style: italic;
+}
+
+.background-video-2 {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10vh;
+	width: 100%;
+	height: 90vh;
+}
+
 @media screen and (min-width: 1920px) {
 	.column-2 {
-		height: 227vh;
+		height: 230vh;
 	}
 
 	.column-3 {
-		height: 227vh;
+		height: 230vh;
 	}
 
 	.div-block-6.casestudies.last-cs {
@@ -2673,4 +2832,40 @@ textarea.w-select {
 	.column-5 {
 		margin-top: 2vh;
 	}
+
+	.text-span-3 {
+		font-style: italic;
+	}
+}
+
+@font-face {
+	font-family: 'Cormorant';
+	src: url('https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc47b3ac755c6d32b1d7d33_Cormorant-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cormorant';
+	src: url('https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc47b3a8f82d85a686c8f24_Cormorant-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cormorant';
+	src: url('https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc47b3ab30cf93ae387eec4_Cormorant-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cormorant';
+	src: url('https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc47b3a2ea731790c4425a2_Cormorant-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
 }
