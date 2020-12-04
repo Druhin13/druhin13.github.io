@@ -1,135 +1,41 @@
-$(document).ready(function () {
-
-	if ($(window).width() <= 991) {
-
-		$('.cursor-a').remove();
-
-	}
-
-});
-
-$(document).on({
-
-		mouseenter: function () {
-			$('.text-cursor').css('display', 'none');
-		},
-
-		mouseleave: function () {
-			$('.text-cursor').css('display', 'block');
-		},
-
-	},
-
-	'.navbar'
-
-);
-
-$(document).on({
-
-		mouseenter: function () {
-			$('.text-cursor').css('display', 'none');
-		},
-
-		mouseleave: function () {
-			$('.text-cursor').css('display', 'block');
-		},
-
-	},
-
-	'.sticky-sidebar'
-
-);
-
-
-
-
-
-$(function () {
-
-	//	$(".text-cursor").lettering();
-
-});
-
-
-
-if ($(window).width() >= 991) {
-
-
-
-	$(document)
-
-		.mousemove(function (e) {
-
-			$('.cursor')
-
-				.eq(0)
-
-				.css({
-
-					left: e.clientX,
-
-					top: e.clientY
-
-				});
-
-			setTimeout(function () {
-
-				$('.cursor')
-
-					.eq(1)
-
-					.css({
-
-						left: e.clientX,
-
-						top: e.clientY
-
-					});
-
-			}, 100);
-
-		})
-
-
-
-	$(document).on("mousemove", function (e) {
-
-		mouseX = e.pageX;
-
-		mouseY = e.pageY;
-
-	});
-
-	$('.hero-content').mousedown(() => {
-
-		$('.cursor-v').css('transform', 'scale(0.7)');
-
-		$('.text-cursor').fadeOut(300);
-
-	});
-
-	$('.hero-content').mouseup(() => {
-
-		$('.cursor-v').css('transform', '');
-
-		$('.text-cursor').fadeIn(300);
-
-	});
-
-	$("a").on("mouseenter", function () {
-
-		$('.cursor-a').addClass("active");
-
-		$('.cursor-v').addClass("active");
-
-	});
-
-	$("a").on("mouseleave", function () {
-
-		$('.cursor-a').removeClass("active");
-
-		$('.cursor-v').removeClass("active");
-
-	});
-
+let tricksCursor = document.querySelector('.cursor');
+window.addEventListener('mousemove', cursor);
+
+function cursor(e) {
+	tricksCursor.style.top = e.pageY + 'px';
+	tricksCursor.style.left = e.pageX + 'px';
 }
+
+$("a").mouseenter(function () {
+	window.removeEventListener("mousemove", cursor);
+	var tricksWidth = $(this).outerWidth() / 2;
+	var tricksHeight = $(this).outerHeight() / 2;
+	var tricksTop = $(this).offset().top;
+	var tricksLeft = $(this).offset().left;
+	tricksCursor.style.top = (tricksTop + tricksHeight) + 'px';
+	tricksCursor.style.left = (tricksLeft + tricksWidth) + 'px';
+});
+
+$("a").mouseleave(function () {
+	window.addEventListener("mousemove", cursor);
+});
+
+
+// Add class on hover
+$("a").mouseenter(function () {
+	$('.cursor').addClass('cursor-hover');
+});
+
+$("a").mouseleave(function () {
+	$('.cursor').removeClass('cursor-hover');
+});
+
+
+// Add class on mouse down
+$("body").mousedown(function () {
+	$('.cursor').addClass('cursor-pressed');
+});
+
+$("body").mouseup(function () {
+	$('.cursor').removeClass('cursor-pressed');
+});
