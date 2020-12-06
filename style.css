@@ -1,4 +1,4 @@
-/* Generated on: Sun Dec 06 2020 18:18:46 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Dec 06 2020 18:57:13 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2517,7 +2517,7 @@ textarea.w-select {
 
 .div-block-4.bigname {
 	margin-top: 12vh;
-	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fc0a8c50af8900d170c691d_big%20name.svg");
+	background-image: url("https://uploads-ssl.webflow.com/5fbf41331c2973cb17e755ee/5fcd22e44adceb6c0e2fce18_big%20name%202.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -3055,6 +3055,7 @@ textarea.w-select {
 }
 
 .div-block-23 {
+	width: 42.5vw;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -3440,6 +3441,10 @@ textarea.w-select {
 		margin-top: 4vh;
 	}
 
+	.text-block-3.feedback {
+		width: 85vw;
+	}
+
 	.div-block-17 {
 		height: 20vh;
 	}
@@ -3456,6 +3461,10 @@ textarea.w-select {
 		padding: 1.5vh 3vw;
 	}
 
+	.div-block-23 {
+		width: 85vw;
+	}
+
 	.background-video-3 {
 		z-index: 99;
 		display: block;
@@ -3464,6 +3473,114 @@ textarea.w-select {
 		margin-top: 5vh;
 		margin-right: 0px;
 		margin-left: 0vw;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.columns {
+		margin-top: 0vh;
+	}
+
+	.column-2.testimonial {
+		height: 30vh;
+	}
+
+	.column-3 {
+		height: 340vh;
+	}
+
+	.div-block-3.menu {
+		width: 50vw;
+	}
+
+	.div-block-4.bigname {
+		width: 70vw;
+	}
+
+	.div-block-5 {
+		margin-top: -6.5vh;
+	}
+
+	.text-block-2 {
+		font-size: 0.8em;
+	}
+
+	.text-block-2.heading.fade-up.tricks {
+		font-size: 1.9em;
+	}
+
+	.text-block-2.cs.contact {
+		font-size: 2.3em;
+	}
+
+	.div-block-6 {
+		width: 85vw;
+	}
+
+	.div-block-6.col-cont {
+		width: 85vw;
+	}
+
+	.div-block-6.col-cw {
+		margin-top: 0vh;
+	}
+
+	.div-block-7 {
+		width: 7vw;
+		height: 7vh;
+		margin-bottom: 0vh;
+	}
+
+	.text-block-3 {
+		font-size: 2.5em;
+	}
+
+	.text-block-3.feedback {
+		margin-bottom: 0vh;
+		font-size: 1.8em;
+	}
+
+	.text-block-4 {
+		margin-bottom: 5vh;
+		font-size: 1em;
+	}
+
+	.text-block-4.cws.cwsl {
+		margin-bottom: 5vh;
+	}
+
+	.text-block-4.testi-name {
+		margin-bottom: 0vh;
+	}
+
+	.brand1 {
+		width: 20vw;
+	}
+
+	.div-block-23 {
+		width: 85vw;
+	}
+
+	.div-block-25 {
+		width: 85vw;
+	}
+
+	.text-block-7 {
+		font-size: 1em;
+	}
+
+	.text-block-8 {
+		font-size: 1em;
+		line-height: 1;
+	}
+
+	.link-block-8 {
+		margin-right: 7.5vw;
+	}
+
+	.background-video-3 {
+		height: 50vh;
+		margin-top: 3vh;
 	}
 }
 
