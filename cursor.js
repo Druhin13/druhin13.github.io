@@ -21,6 +21,9 @@ $("a").mouseleave(function () {
 });
 
 
+
+
+
 // Add class on hover
 $("a").mouseenter(function () {
 	$('.cursor').addClass('cursor-hover');
@@ -29,6 +32,20 @@ $("a").mouseenter(function () {
 $("a").mouseleave(function () {
 	$('.cursor').removeClass('cursor-hover');
 });
+
+
+
+
+// Add class on hover of bigname
+$(".div-block-20").mouseenter(function () {
+	$('.cursor').addClass('bigname-hover');
+});
+
+$(".div-block-20").mouseleave(function () {
+	$('.cursor').removeClass('bigname-hover');
+});
+
+
 
 
 // Add class on mouse down
