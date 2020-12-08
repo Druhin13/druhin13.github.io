@@ -6,15 +6,15 @@ function cursor(e) {
 	tricksCursor.style.left = e.pageX + 'px';
 }
 
-//$("a").mouseenter(function () {
-//	window.removeEventListener("mousemove", cursor);
-//	var tricksWidth = $(this).outerWidth() / 2;
-//	var tricksHeight = $(this).outerHeight() / 2;
-//	var tricksTop = $(this).offset().top;
-//	var tricksLeft = $(this).offset().left;
-//	tricksCursor.style.top = (tricksTop + tricksHeight) + 'px';
-//	tricksCursor.style.left = (tricksLeft + tricksWidth) + 'px';
-//});
+$("a").mouseenter(function () {
+	window.removeEventListener("mousemove", cursor);
+	var tricksWidth = $(this).outerWidth() / 2;
+	var tricksHeight = $(this).outerHeight() / 2;
+	var tricksTop = $(this).offset().top;
+	var tricksLeft = $(this).offset().left;
+	tricksCursor.style.top = (tricksTop + tricksHeight) + 'px';
+	tricksCursor.style.left = (tricksLeft + tricksWidth) + 'px';
+});
 
 $("a").mouseleave(function () {
 	window.addEventListener("mousemove", cursor);
