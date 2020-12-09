@@ -7766,11 +7766,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "00d76119-235a-88df-dc50-ba83753d7d3d",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "00d76119-235a-88df-dc50-ba83753d7d3d"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "00d76119-235a-88df-dc50-ba83753d7d3d",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": true,
 				"playInReverse": false,
@@ -7781,6 +7785,86 @@ Webflow.require('ix2').init({
 				"effectIn": null
 			},
 			"createdOn": 1607188269307
+		},
+		"e-3": {
+			"id": "e-3",
+			"name": "Unnamed interaction",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_OVER",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-2",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-4"
+				}
+			},
+			"mediaQueries": ["main", "medium", "small", "tiny"],
+			"target": {
+				"selector": ".link-block",
+				"originalId": "a7658e07-fc17-7d2d-a52f-9aa6bbd8770c",
+				"appliesTo": "CLASS"
+			},
+			"targets": [{
+				"selector": ".link-block",
+				"originalId": "a7658e07-fc17-7d2d-a52f-9aa6bbd8770c",
+				"appliesTo": "CLASS"
+			}],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1607257596577
+		},
+		"e-4": {
+			"id": "e-4",
+			"name": "Unnamed interaction",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_OUT",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-3",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-3"
+				}
+			},
+			"mediaQueries": ["main", "medium", "small", "tiny"],
+			"target": {
+				"selector": ".link-block",
+				"originalId": "a7658e07-fc17-7d2d-a52f-9aa6bbd8770c",
+				"appliesTo": "CLASS"
+			},
+			"targets": [{
+				"selector": ".link-block",
+				"originalId": "a7658e07-fc17-7d2d-a52f-9aa6bbd8770c",
+				"appliesTo": "CLASS"
+			}],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1607257596578
 		}
 	},
 	"actionLists": {
@@ -7845,8 +7929,73 @@ Webflow.require('ix2').init({
 					}
 				}]
 			}],
-			"createdOn": 1607188337996,
-			"useFirstGroupAsInitialState": true
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1607188337996
+		},
+		"a-2": {
+			"id": "a-2",
+			"title": "Nav Hover in",
+			"actionItemGroups": [{
+				"actionItems": [{
+					"id": "a-2-n",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"useEventTarget": "SIBLINGS",
+							"selector": ".link-block",
+							"selectorGuids": ["85e14f06-8a9f-840d-2b28-99f4e85a320a"]
+						},
+						"value": 1,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-2-n-2",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "outQuart",
+						"duration": 300,
+						"target": {
+							"useEventTarget": "SIBLINGS",
+							"selector": ".link-block",
+							"selectorGuids": ["85e14f06-8a9f-840d-2b28-99f4e85a320a"]
+						},
+						"value": 0.35,
+						"unit": ""
+					}
+				}]
+			}],
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1607257600505
+		},
+		"a-3": {
+			"id": "a-3",
+			"title": "Nav Hover out",
+			"actionItemGroups": [{
+				"actionItems": [{
+					"id": "a-3-n",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "outQuart",
+						"duration": 300,
+						"target": {
+							"useEventTarget": "SIBLINGS",
+							"selector": ".link-block",
+							"selectorGuids": ["85e14f06-8a9f-840d-2b28-99f4e85a320a"]
+						},
+						"value": 1,
+						"unit": ""
+					}
+				}]
+			}],
+			"useFirstGroupAsInitialState": false,
+			"createdOn": 1607257600505
 		}
 	},
 	"site": {
