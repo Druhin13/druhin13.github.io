@@ -47,6 +47,17 @@ $(".div-block-20").mouseleave(function () {
 
 
 
+// Add class on hover of video
+$(".background-video-2").mouseenter(function () {
+	$('.cursor').addClass('video-hover');
+});
+
+$(".background-video-2").mouseleave(function () {
+	$('.cursor').removeClass('video-hover');
+});
+
+
+
 
 // Add class on mouse down
 $("body").mousedown(function () {
