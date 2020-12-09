@@ -23,6 +23,23 @@ $(".menuitems").mouseleave(function () {
 
 
 
+$(".logo").mouseenter(function () {
+	window.removeEventListener("mousemove", cursor);
+	var tricksWidth = $(this).outerWidth() / 2;
+	var tricksHeight = $(this).outerHeight() / 2;
+	var tricksTop = $(this).offset().top;
+	var tricksLeft = $(this).offset().left;
+	tricksCursor.style.top = (tricksTop + tricksHeight) + 'px';
+	tricksCursor.style.left = (tricksLeft + tricksWidth) + 'px';
+});
+
+$(".logo").mouseleave(function () {
+	window.addEventListener("mousemove", cursor);
+});
+
+
+
+
 
 // Add class on hover
 $("a").mouseenter(function () {
