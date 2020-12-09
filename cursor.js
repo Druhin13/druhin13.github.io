@@ -6,7 +6,7 @@ function cursor(e) {
 	tricksCursor.style.left = e.pageX + 'px';
 }
 
-$("a").mouseenter(function () {
+$(".menuitems").mouseenter(function () {
 	window.removeEventListener("mousemove", cursor);
 	var tricksWidth = $(this).outerWidth() / 2;
 	var tricksHeight = $(this).outerHeight() / 2;
@@ -16,7 +16,7 @@ $("a").mouseenter(function () {
 	tricksCursor.style.left = (tricksLeft + tricksWidth) + 'px';
 });
 
-$("a").mouseleave(function () {
+$(".menuitems").mouseleave(function () {
 	window.addEventListener("mousemove", cursor);
 });
 
