@@ -23,7 +23,7 @@ $(".menuitems").mouseleave(function () {
 
 
 
-$(".logo").mouseenter(function () {
+$(".link-block-6").mouseenter(function () {
 	window.removeEventListener("mousemove", cursor);
 	var tricksWidth = $(this).outerWidth() / 2;
 	var tricksHeight = $(this).outerHeight() / 2;
@@ -33,7 +33,7 @@ $(".logo").mouseenter(function () {
 	tricksCursor.style.left = (tricksLeft + tricksWidth) + 'px';
 });
 
-$(".logo").mouseleave(function () {
+$(".link-block-6").mouseleave(function () {
 	window.addEventListener("mousemove", cursor);
 });
 
