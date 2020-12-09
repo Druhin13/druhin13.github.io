@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 09 2020 16:09:23 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 09 2020 16:24:39 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2488,7 +2488,7 @@ textarea.w-select {
 
 .menuitems.home1 {
 	margin-right: 0vw;
-	padding-right: 0vw;
+	padding: 1em 1vw;
 	font-size: 1em;
 	line-height: 1;
 	font-weight: 600;
@@ -3164,9 +3164,13 @@ textarea.w-select {
 }
 
 .link-block {
-	margin-right: 3vw;
+	margin-right: 1vw;
 	text-decoration: none;
 	cursor: none;
+}
+
+.link-block.contact-link-block {
+	margin-right: 2vw;
 }
 
 .link-block-2 {
