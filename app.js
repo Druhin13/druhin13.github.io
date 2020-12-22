@@ -7,5 +7,5 @@ const scroll = new LocomotiveScroll({
 });
 
 
-$(window).load(function () { locoScroll.update(); ScrollTrigger.update; });
+//$(window).load(function () { locoScroll.update(); ScrollTrigger.update; });
 
