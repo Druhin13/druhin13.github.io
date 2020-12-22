@@ -5,3 +5,7 @@ const scroll = new LocomotiveScroll({
     smooth: true,
 	multiplier: 1
 });
+
+
+$(window).load(function () { locoScroll.update(); ScrollTrigger.update; });
+

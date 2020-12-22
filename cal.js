@@ -3,8 +3,8 @@
 //
 var ch1 = document.getElementById('top-section').offsetHeight;
 ////console.log(ch1);
-////document.getElementById("target1").style.height = ch1;
-////console.log(document.getElementById('target1').clientHeight);
+document.getElementById("target1").style.height = ch1;
+console.log(document.getElementById('target1').clientHeight);
 
 
 var ch2 = document.getElementById('testimonial').offsetHeight;
