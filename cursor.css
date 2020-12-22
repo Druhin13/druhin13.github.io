@@ -1,0 +1,10 @@
+body:hover .cursor {
+	opacity: 100%;
+}
+
+.cursor {
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	position: absolute;
+	opacity: 0%;
+}
