@@ -233,6 +233,11 @@
     font-size: 7.1vw;
   }
 
+  .section-2 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
   .right-col {
     width: 64.5vw;
   }
