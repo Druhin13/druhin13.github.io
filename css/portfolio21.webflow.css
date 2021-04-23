@@ -293,7 +293,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2.75vh;
+  margin-top: 2.5vh;
 }
 
 .middle-col {
@@ -301,7 +301,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: auto;
+  width: 48vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -329,7 +329,57 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2.75vh;
+  margin-top: 2.5vh;
+}
+
+.resume-col {
+  width: 26.5vw;
+}
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 17vw;
+  height: 6vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: #111920;
+  border-radius: 10px;
+  background-color: #dedede;
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  color: #111920;
+  font-size: 1.5vw;
+}
+
+.button:hover {
+  background-color: #cacaca;
+}
+
+.div-block-4 {
+  margin-top: 8vh;
+}
+
+@media screen and (min-width: 1920px) {
+  .button {
+    height: 6.5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .div-block-4 {
+    margin-top: 7.5vh;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -426,7 +476,7 @@
   }
 
   .middle-col {
-    width: auto;
+    width: 37vw;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -443,6 +493,21 @@
 
   .social-grp2 {
     margin-top: 1vh;
+  }
+
+  .resume-col {
+    width: 35vw;
+  }
+
+  .button {
+    width: 28vw;
+    height: 5vh;
+    border-width: 2px;
+    font-size: 2.25vw;
+  }
+
+  .div-block-4 {
+    margin-top: 6.5vh;
   }
 }
 
@@ -597,6 +662,21 @@
 
   .email {
     margin-top: 1.5vh;
+  }
+
+  .resume-col {
+    width: 100%;
+    margin-top: 5.5vh;
+  }
+
+  .button {
+    width: 60vw;
+    height: 5.5vh;
+    font-size: 5vw;
+  }
+
+  .div-block-4 {
+    margin-top: 2.5vh;
   }
 }
 
