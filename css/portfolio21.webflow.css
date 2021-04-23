@@ -1,4 +1,5 @@
 .body {
+  padding-bottom: 10vh;
   background-color: #dedede;
   font-family: Helveticaneue, sans-serif;
   color: #111920;
@@ -143,6 +144,17 @@
   z-index: 100;
 }
 
+.text30.testimonial {
+  margin-left: 0vw;
+  padding-bottom: 0vh;
+  border-bottom-style: none;
+  letter-spacing: -0.05vw;
+}
+
+.text30.testimonial.name {
+  margin-top: 3vh;
+}
+
 .section-1 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -204,11 +216,46 @@
   flex-direction: column;
 }
 
+.right-col.testimonial {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
 .section-3 {
   margin-right: 4vw;
   margin-left: 4vw;
   padding-top: 10.5vh;
   padding-bottom: 9.5vh;
+}
+
+.section-4 {
+  margin-right: 4vw;
+  margin-left: 4vw;
+  padding-top: 10.5vh;
+  padding-bottom: 9.5vh;
+}
+
+.feedback {
+  width: 26vw;
+  margin-right: 4vw;
+}
+
+.div-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10.5vh;
+}
+
+.section-5 {
+  height: 100vh;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  border-top: 2.5px solid #111920;
 }
 
 @media screen and (max-width: 991px) {
@@ -258,6 +305,8 @@
   }
 
   .section-2 {
+    margin-right: 5vw;
+    margin-left: 5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
   }
@@ -275,8 +324,25 @@
   }
 
   .section-3 {
+    margin-right: 5vw;
+    margin-left: 5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
+  }
+
+  .section-4 {
+    margin-right: 5vw;
+    margin-left: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  .feedback {
+    width: 33vw;
+  }
+
+  .div-block-2 {
+    margin-bottom: 5vh;
   }
 }
 
@@ -320,6 +386,10 @@
   .text30 {
     margin-left: 4vw;
     font-size: 5vw;
+  }
+
+  .text30.testimonial {
+    letter-spacing: -0.15vw;
   }
 
   .section-1 {
@@ -366,6 +436,20 @@
     margin-right: 5vw;
     margin-left: 5vw;
     padding-top: 5vh;
+  }
+
+  .feedback {
+    width: 100%;
+    margin-bottom: 5vh;
+  }
+
+  .div-block-2 {
+    margin-bottom: 0vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
