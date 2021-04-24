@@ -221,6 +221,11 @@
   padding-bottom: 9.5vh;
 }
 
+.all {
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+
 .left-col {
   width: 17.5vw;
 }
@@ -437,7 +442,6 @@
 }
 
 .page {
-  height: auto;
   border-style: solid;
   border-width: 1px 1px 0px;
   border-color: transparent;
@@ -507,6 +511,7 @@
   }
 
   .text-block-3.fade-up.tricks {
+    width: 101%;
     margin-top: -8px;
     padding-bottom: 8px;
   }
@@ -516,6 +521,11 @@
     margin-left: 5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
+  }
+
+  .all {
+    border-right-width: 0px;
+    border-left-width: 0px;
   }
 
   .left-col {
@@ -695,6 +705,11 @@
     margin-left: 5vw;
     padding-top: 5vh;
     padding-bottom: 10vh;
+  }
+
+  .all {
+    border-right-width: 0px;
+    border-left-width: 0px;
   }
 
   .left-col {
