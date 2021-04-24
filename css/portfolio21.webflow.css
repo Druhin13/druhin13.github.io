@@ -447,6 +447,40 @@
   border-color: transparent;
 }
 
+.cursor-wrapper {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1000;
+  display: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cursor-circle {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border: 1px solid #111920;
+  border-radius: 50%;
+  color: #111920;
+}
+
+.point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #111920;
+}
+
 @media screen and (min-width: 1920px) {
   .text-block-3.fade-up.tricks {
     margin-top: -18px;
@@ -601,6 +635,18 @@
 
   .div-block-4 {
     margin-top: 6.5vh;
+  }
+
+  .cursor-wrapper {
+    display: none;
+  }
+
+  .cursor-circle {
+    display: none;
+  }
+
+  .point {
+    display: none;
   }
 }
 
