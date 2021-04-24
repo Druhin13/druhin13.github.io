@@ -88,6 +88,22 @@
   line-height: 1.25;
 }
 
+.text60.fade-up2.tricks {
+  overflow: hidden;
+}
+
+.text60.fade-up3.tricks {
+  overflow: hidden;
+}
+
+.text60.fade-up4.tricks {
+  overflow: hidden;
+}
+
+.text60.fade-up5.tricks {
+  overflow: hidden;
+}
+
 .menu-fixed {
   position: fixed;
   z-index: 50;

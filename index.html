@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Apr 24 2021 05:30:43 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Apr 24 2021 06:06:01 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="608243a202daedd8d2744834" data-wf-site="608243a202daed7d53744833" lang="en">
 <head>
   <meta charset="utf-8">
@@ -75,6 +75,10 @@
 .tricksword {display: inline-block;} 
 .tricksword {white-space: nowrap;}
 .fade-up .tricksword {opacity: 0;}
+.fade-up2 .tricksword {opacity: 0;}
+.fade-up3 .tricksword {opacity: 0;}
+.fade-up4 .tricksword {opacity: 0;}
+.fade-up5 .tricksword {opacity: 0;}
 </style>
 </head>
 <body class="body">
@@ -112,7 +116,7 @@
     <div class="section-2">
       <div class="_2-col">
         <div class="left-col">
-          <div class="text60">About</div>
+          <div id="scroll-in2" class="text60 fade-up2 tricks">About</div>
         </div>
         <div class="right-col">
           <div class="text60 mobile">I&#x27;m Druhin, a 19y/o designer currently working as a freelancer, but in the past, I have worked with some small design agencies and a few mid-sized startups. In addition to that, I&#x27;ve also been a member of the Awwwards Young Jury for the past 7 months.<br><br>Besides being a designer with around 3 years of experience, I also have the ability to bring my design ideas to life with a bit of my front-end coding skills.</div>
@@ -122,7 +126,7 @@
     <div class="section-3">
       <div class="_2-col">
         <div class="left-col">
-          <div class="text60">Awards</div>
+          <div id="scroll-in3" class="text60 fade-up3 tricks">Awards</div>
         </div>
         <div class="right-col">
           <div class="text60 mobile award">2021 /  Awwwards - Honors</div>
@@ -143,7 +147,7 @@
     <div class="section-4">
       <div class="_2-col">
         <div class="left-col">
-          <div class="text60">Fdbks</div>
+          <div id="scroll-in4" class="text60 fade-up4 tricks">Fdbks</div>
         </div>
         <div class="right-col">
           <div class="div-block-2">
@@ -168,7 +172,7 @@
     <footer class="section-5">
       <div class="_3-col">
         <div class="left-col">
-          <div class="text60">Contact</div>
+          <div id="scroll-in5" class="text60 fade-up5 tricks">Contact</div>
         </div>
         <div class="middle-col">
           <div class="text60 mobile contact">Kolkata, India<br>Remote ~ Worldwide<br></div>
@@ -418,9 +422,6 @@ $(document).ready(function(){
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
   <script>
-// Copyright start
-// © Code by T.RICKS, https://www.tricksdesign.com/
-// You have the license to use this code in your projects but not redistribute it to others
 // Find all text with .tricks class and break each letter into a span
 var tricksWord = document.getElementsByClassName("tricks");
 for (var i = 0; i < tricksWord.length; i++) {
@@ -432,46 +433,6 @@ for (var i = 0; i < tricksLetter.length; i++) {
    var letterWrap = tricksLetter.item(i);
    letterWrap.innerHTML = letterWrap.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 }
-// Copyright end
-// Slide In Animation
-var slideIn = anime.timeline({
-  loop: false,
-  autoplay: false,
-});
-slideIn
-  .add({
-    targets: '.slide-in .letter',
-    opacity: [0,1],
-    easing: "easeInOutQuad",
-    duration: 2250,
-    delay: (el, i) => 150 * (i+1)
- }).add({
-    targets: '.slide-in',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-// Slide Up Animation
-var slideUp = anime.timeline({
-  loop: false,
-  autoplay: false,
-});
-slideUp
-    .add({
-    targets: '.slide-up .letter',
-    translateY: ["1.1em", 0],
-    opacity: [0,1],
-    translateZ: 0,
-    duration: 750,
-    delay: (el, i) => 50 * i
-  }).add({
-    targets: '.slide-up',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
 // Fade Up Animation
 var fadeUp = anime.timeline({
   loop: false,
@@ -488,52 +449,66 @@ fadeUp
     duration: 1000,
     delay: (el, i) => 50 * i
   });
-// Rotate In Animation
-var rotateIn = anime.timeline({
+var fadeUp2 = anime.timeline({
   loop: false,
   autoplay: false,
 });
-rotateIn 
-    .add({
-    targets: '.rotate-in .letter',
-    translateY: ["1.1em", 0],
-    translateX: ["0.55em", 0],
+fadeUp2 
+  .add({
+    targets: '.fade-up2 .tricksword',
+    translateY: [100,0],
     translateZ: 0,
-    rotateZ: [180, 0],
-    duration: 750,
+    opacity: [0,1],
+    rotateZ: [30,0],
     easing: "easeOutExpo",
-    delay: (el, i) => 50 * i
-  }).add({
-    targets: '.rotate-in',
-    opacity: 0,
     duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-// Pop In Animation
-var popIn = anime.timeline({
+    delay: (el, i) => 50 * i
+  });  
+var fadeUp3 = anime.timeline({
   loop: false,
   autoplay: false,
 });
-popIn
-    .add({
-    targets: '.pop-in .letter',
-    scale: [0, 1],
-    duration: 1500,
-    elasticity: 600,
-    delay: (el, i) => 45 * (i+1)
-  }).add({
-    targets: '.pop-in',
-    opacity: 0,
-    duration: 1000,
+fadeUp3 
+  .add({
+    targets: '.fade-up3 .tricksword',
+    translateY: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    rotateZ: [30,0],
     easing: "easeOutExpo",
-    delay: 1000
-  });
-// Play your animation with these
-slideUp.play();
-slideIn.play();
-rotateIn.play();
-popIn.play();
+    duration: 1000,
+    delay: (el, i) => 50 * i
+  });    
+var fadeUp4 = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
+fadeUp4 
+  .add({
+    targets: '.fade-up4 .tricksword',
+    translateY: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    rotateZ: [30,0],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: (el, i) => 50 * i
+  });    
+var fadeUp5 = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
+fadeUp5 
+  .add({
+    targets: '.fade-up5 .tricksword',
+    translateY: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    rotateZ: [30,0],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: (el, i) => 50 * i
+  });  
 // Wait before playing animation
 setTimeout(() => {  
 	// Put the play below this line
@@ -550,6 +525,34 @@ $( ".your-button-class" ).mouseenter(function() {
 $('#scroll-in').on('inview', function(event, isInView) {
   if (isInView) {
   fadeUp.play();
+		// Put the play below this line
+  } else {
+  }
+});
+$('#scroll-in2').on('inview', function(event, isInView) {
+  if (isInView) {
+  fadeUp2.play();
+		// Put the play below this line
+  } else {
+  }
+});
+$('#scroll-in3').on('inview', function(event, isInView) {
+  if (isInView) {
+  fadeUp3.play();
+		// Put the play below this line
+  } else {
+  }
+});
+$('#scroll-in4').on('inview', function(event, isInView) {
+  if (isInView) {
+  fadeUp4.play();
+		// Put the play below this line
+  } else {
+  }
+});
+$('#scroll-in5').on('inview', function(event, isInView) {
+  if (isInView) {
+  fadeUp5.play();
 		// Put the play below this line
   } else {
   }
