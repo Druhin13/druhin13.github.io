@@ -230,8 +230,8 @@ body {
 }
 
 .all {
-  border-right: 1px solid transparent;
-  border-left: 1px solid transparent;
+  border-right: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
 }
 
 .left-col {
@@ -455,7 +455,7 @@ body {
 
 .page {
   border-style: solid;
-  border-width: 1px 1px 0px;
+  border-width: 1.5px 1.5px 0px;
   border-color: transparent;
 }
 
@@ -493,10 +493,22 @@ body {
   background-color: #111920;
 }
 
+@media screen and (min-width: 1280px) {
+  .all {
+    border-right-width: 0px;
+    border-left-width: 0px;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .text-block-3.fade-up.tricks {
     margin-top: -18px;
     padding-bottom: 18px;
+  }
+
+  .all {
+    border-right-width: 1.5px;
+    border-left-width: 1.5px;
   }
 
   .button {
@@ -570,8 +582,8 @@ body {
   }
 
   .all {
-    border-right-width: 0px;
-    border-left-width: 0px;
+    border-right-width: 1.5px;
+    border-left-width: 1.5px;
   }
 
   .left-col {
@@ -880,6 +892,12 @@ body {
 
   .link-block-2 {
     margin-right: 3vw;
+  }
+
+  .page {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
   }
 }
 
