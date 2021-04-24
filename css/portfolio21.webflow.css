@@ -1,5 +1,7 @@
 .body {
   background-color: #dedede;
+  -webkit-perspective: 500px;
+  perspective: 500px;
   font-family: Helveticaneue, sans-serif;
   color: #111920;
   line-height: 1;
@@ -423,6 +425,23 @@
   transform-origin: 0% 0%;
 }
 
+.page1 {
+  border-style: solid;
+  border-width: 0px 1px;
+  border-color: #111920;
+}
+
+.html-embed {
+  margin-bottom: 0px;
+}
+
+.p1 {
+  border: 1px solid transparent;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
 @media screen and (min-width: 1920px) {
   .text-block-3.fade-up.tricks {
     margin-top: -18px;
@@ -665,6 +684,7 @@
   }
 
   .text-block-3.fade-up.tricks {
+    width: 101%;
     margin-top: -6px;
     padding-bottom: 6px;
   }
