@@ -1,3 +1,11 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: none;
+}
+
 .body {
   background-color: #dedede;
   font-family: Helveticaneue, sans-serif;
@@ -227,6 +235,7 @@
 }
 
 .left-col {
+  overflow: hidden;
   width: 17.5vw;
 }
 
@@ -398,6 +407,7 @@
   transition: background-color 200ms ease;
   color: #111920;
   font-size: 1.5vw;
+  cursor: none;
 }
 
 .button:hover {
@@ -415,11 +425,13 @@
 .link-block {
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-2 {
   margin-right: 2vw;
   text-decoration: none;
+  cursor: none;
 }
 
 .tricksword {

@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Apr 24 2021 18:25:43 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Apr 24 2021 18:35:48 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="608243a202daedd8d2744834" data-wf-site="608243a202daed7d53744833" lang="en">
 <head>
   <meta charset="utf-8">
@@ -338,6 +338,11 @@ $('#contact').click(function(){
   <script>
 $('#work').click(function(){
   $("html, body").animate({ scrollTop: 0 }, "fast");
+});
+$("#work").click(function () {
+		setTimeout(function () {
+		window.location = "/work";
+	}, 2500);
 });
 </script>
   <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
