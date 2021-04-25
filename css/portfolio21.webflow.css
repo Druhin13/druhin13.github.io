@@ -461,6 +461,7 @@ body {
 }
 
 .page {
+  width: 100vw;
   border: 0px none transparent;
 }
 
@@ -846,7 +847,7 @@ body {
   }
 
   .text-block-3.fade-up.tricks {
-    width: 101%;
+    width: 102%;
     margin-top: -6px;
     padding-bottom: 6px;
   }
