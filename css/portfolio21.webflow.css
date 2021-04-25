@@ -70,12 +70,19 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 14.75vh;
-  margin-right: 4vw;
-  margin-left: 4vw;
+  margin-right: 0vw;
+  margin-left: 0vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+  border-style: solid solid none;
+  border-width: 1.5px 1.5px 0px;
+  border-color: transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .text60 {
@@ -230,6 +237,7 @@ body {
 }
 
 .all {
+  width: 100vw;
   border-right: 1.5px solid transparent;
   border-left: 1.5px solid transparent;
 }
@@ -454,9 +462,8 @@ body {
 }
 
 .page {
-  border-style: solid;
-  border-width: 1.5px 1.5px 0px;
-  border-color: transparent;
+  width: 100vw;
+  border: 0px none transparent;
 }
 
 .cursor-wrapper {
@@ -494,13 +501,30 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
+  .menu {
+    border-style: solid solid none;
+    border-width: 1.5px 1.5px 0px;
+    border-color: transparent;
+  }
+
   .all {
-    border-right-width: 0px;
-    border-left-width: 0px;
+    border-right-width: 1.5px;
+    border-left-width: 1.5px;
+  }
+
+  .page {
+    border-style: none;
+    border-width: 0px;
   }
 }
 
 @media screen and (min-width: 1920px) {
+  .menu {
+    border-style: solid solid none;
+    border-width: 1.5px 1.5px 0px;
+    border-color: transparent;
+  }
+
   .text-block-3.fade-up.tricks {
     margin-top: -18px;
     padding-bottom: 18px;
@@ -520,6 +544,11 @@ body {
   .div-block-4 {
     margin-top: 7.5vh;
   }
+
+  .page {
+    border-style: none;
+    border-width: 0px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -533,8 +562,12 @@ body {
 
   .menu {
     height: 15vh;
-    margin-right: 5vw;
-    margin-left: 5vw;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 
   .text60 {
@@ -685,6 +718,11 @@ body {
 
   .menu {
     height: 12.5vh;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
   .text60 {
@@ -778,8 +816,8 @@ body {
   }
 
   .all {
-    border-right-width: 0px;
-    border-left-width: 0px;
+    border-right-width: 1px;
+    border-left-width: 1px;
   }
 
   .left-col {
@@ -895,9 +933,8 @@ body {
   }
 
   .page {
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-left-width: 1px;
+    border-style: none;
+    border-width: 0px;
   }
 }
 
