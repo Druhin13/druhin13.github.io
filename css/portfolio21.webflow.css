@@ -195,6 +195,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   height: 85.25vh;
   margin-right: 4vw;
   margin-left: 4vw;
