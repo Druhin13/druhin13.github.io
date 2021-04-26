@@ -214,6 +214,10 @@ body {
   align-items: flex-start;
 }
 
+.section-1.work-page {
+  padding-bottom: 5vh;
+}
+
 .text-block-3 {
   width: 105%;
   font-size: 7.2vw;
@@ -234,6 +238,11 @@ body {
   margin-left: 4vw;
   padding-top: 10.5vh;
   padding-bottom: 9.5vh;
+}
+
+.section-2.work-page {
+  padding-top: 9.5vh;
+  padding-bottom: 10vh;
 }
 
 .all {
@@ -287,6 +296,11 @@ body {
   margin-left: 4vw;
   padding-top: 10.5vh;
   padding-bottom: 9.5vh;
+}
+
+.section-3.work-page {
+  padding-top: 4.5vh;
+  padding-bottom: 10vh;
 }
 
 .section-4 {
@@ -534,6 +548,254 @@ body {
 
 .gototop:hover {
   background-color: #cacaca;
+}
+
+.div-block-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 8.5vh;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.cs1 {
+  width: 44vw;
+}
+
+.cs-bg {
+  width: 44vw;
+  height: 55vh;
+  background-color: #1d1d1d;
+}
+
+.background-video {
+  position: absolute;
+  z-index: 2;
+  width: 44vw;
+  height: 55vh;
+  opacity: 0.6;
+}
+
+.bg-cover {
+  width: 44vw;
+  height: 55vh;
+}
+
+.bg-cover.color {
+  position: absolute;
+  z-index: 3;
+  background-color: #000;
+}
+
+.div-block-6 {
+  margin-top: 3vh;
+}
+
+.cs-heading {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  margin-top: 2.25vh;
+  font-size: 1.15vw;
+  line-height: 0.95;
+}
+
+.paragraph-2 {
+  margin-top: 2.25vh;
+  margin-bottom: 0px;
+  font-size: 1.15vw;
+  letter-spacing: -0.05vw;
+}
+
+.cs2 {
+  width: 36vw;
+  margin-left: 12vw;
+}
+
+.cs-bg2 {
+  width: 36vw;
+  height: 27vh;
+  background-color: #1d1d1d;
+}
+
+.background-video2 {
+  position: absolute;
+  z-index: 2;
+  width: 36vw;
+  height: 27vh;
+  opacity: 0.7;
+}
+
+.bg-cover2 {
+  width: 36vw;
+  height: 27vh;
+}
+
+.bg-cover2.color {
+  position: absolute;
+  z-index: 3;
+  background-color: #000;
+}
+
+.cs3 {
+  width: 36vw;
+}
+
+.cs-bg3 {
+  width: 36vw;
+  height: 27vh;
+  background-color: #1d1d1d;
+}
+
+.background-video3 {
+  position: absolute;
+  z-index: 2;
+  width: 36vw;
+  height: 27vh;
+  opacity: 1;
+}
+
+.bg-cover3 {
+  width: 36vw;
+  height: 27vh;
+}
+
+.bg-cover3.color {
+  position: absolute;
+  z-index: 3;
+  background-color: #000;
+}
+
+.cs4 {
+  width: 26.5vw;
+  margin-left: 12vw;
+}
+
+.cs-bg4 {
+  width: 26.5vw;
+  height: 13.85vh;
+  background-color: #1d1d1d;
+}
+
+.background-video4 {
+  position: absolute;
+  z-index: 2;
+  width: 26.5vw;
+  height: 13.85vh;
+  opacity: 1;
+}
+
+.bg-cover4 {
+  width: 26.5vw;
+  height: 13.85vh;
+}
+
+.bg-cover4.color {
+  position: absolute;
+  z-index: 3;
+  background-color: #000;
+}
+
+.div-block-5-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 8.5vh;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.div-block-5-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 8.5vh;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.cs5 {
+  width: 26.5vw;
+}
+
+.cs-bg5 {
+  width: 26.5vw;
+  height: 23vh;
+  background-color: #1d1d1d;
+}
+
+.background-video5 {
+  position: absolute;
+  z-index: 2;
+  width: 26.5vw;
+  height: 23vh;
+  opacity: 1;
+}
+
+.bg-cover5 {
+  width: 26.5vw;
+  height: 23vh;
+}
+
+.bg-cover5.color {
+  position: absolute;
+  z-index: 3;
+  background-color: #000;
+}
+
+.cs6 {
+  width: 44vw;
+}
+
+.cs-bg6 {
+  width: 44vw;
+  height: 55vh;
+  background-color: #1d1d1d;
+}
+
+.background-video6 {
+  position: absolute;
+  z-index: 2;
+  width: 44vw;
+  height: 55vh;
+  opacity: 0.6;
+}
+
+.bg-cover6 {
+  width: 44vw;
+  height: 55vh;
+}
+
+.bg-cover6.color {
+  position: absolute;
+  z-index: 3;
+  background-color: #000;
+}
+
+.div-block-7 {
+  width: 100%;
 }
 
 @media screen and (min-width: 1280px) {
