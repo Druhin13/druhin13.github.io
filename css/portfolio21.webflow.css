@@ -568,10 +568,10 @@ body {
   width: 100%;
   height: auto;
   margin-top: 8.5vh;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .cs1 {
@@ -655,6 +655,7 @@ body {
 
 .cs2 {
   width: 36vw;
+  margin-bottom: 30vh;
   margin-left: 12vw;
 }
 
@@ -851,7 +852,7 @@ body {
   z-index: 2;
   width: 26.5vw;
   height: 13.85vh;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .bg-cover7 {
@@ -863,6 +864,10 @@ body {
   position: absolute;
   z-index: 3;
   background-color: #000;
+}
+
+.div-block-8 {
+  height: 100%;
 }
 
 @media screen and (min-width: 1280px) {
@@ -1130,6 +1135,7 @@ body {
   }
 
   .cs2 {
+    margin-bottom: 6vh;
     margin-left: 10vw;
   }
 
@@ -1310,7 +1316,7 @@ body {
   }
 
   .section-1.work-page {
-    height: auto;
+    height: 143vh;
     padding-bottom: 0vh;
   }
 
@@ -1529,6 +1535,7 @@ body {
   .cs2 {
     width: 100%;
     margin-top: 8vh;
+    margin-bottom: 0vh;
     margin-left: 0vw;
   }
 
