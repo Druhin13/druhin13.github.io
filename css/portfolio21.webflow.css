@@ -933,6 +933,10 @@ body {
     padding-bottom: 10vh;
   }
 
+  .section-1.work-page {
+    padding-bottom: 5vh;
+  }
+
   .text-block-3 {
     font-size: 7.1vw;
   }
@@ -948,6 +952,11 @@ body {
     margin-left: 5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
+  }
+
+  .section-2.work-page {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
   }
 
   .all {
@@ -974,11 +983,20 @@ body {
     padding-bottom: 10vh;
   }
 
+  .section-3.work-page {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
   .section-4 {
     margin-right: 5vw;
     margin-left: 5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
+  }
+
+  .section-4.work-page {
+    padding-top: 5vh;
   }
 
   .feedback {
@@ -1048,6 +1066,127 @@ body {
     width: 7.5vw;
     height: 7.5vw;
     font-size: 2.25vw;
+  }
+
+  .div-block-5 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  .cs-bg {
+    height: 24vh;
+  }
+
+  .background-video {
+    height: 24vh;
+  }
+
+  .bg-cover.color {
+    height: 24vh;
+  }
+
+  .cs-heading {
+    font-size: 2.25vw;
+  }
+
+  .paragraph-2 {
+    font-size: 1.85vw;
+  }
+
+  .cs2 {
+    margin-left: 10vw;
+  }
+
+  .cs-bg2 {
+    height: 18vh;
+  }
+
+  .background-video2 {
+    height: 18vh;
+  }
+
+  .bg-cover2.color {
+    height: 18vh;
+  }
+
+  .cs4 {
+    width: 46vw;
+    margin-left: 8vw;
+  }
+
+  .cs-bg4 {
+    width: 46vw;
+  }
+
+  .background-video4 {
+    width: 46vw;
+  }
+
+  .bg-cover4.color {
+    width: 46vw;
+  }
+
+  .div-block-5-2 {
+    margin-top: 5vh;
+  }
+
+  .div-block-5-3 {
+    margin-top: 5vh;
+  }
+
+  .cs5 {
+    width: 35vw;
+  }
+
+  .cs-bg5 {
+    width: 35vw;
+  }
+
+  .background-video5 {
+    width: 35vw;
+  }
+
+  .bg-cover5.color {
+    width: 35vw;
+  }
+
+  .cs6 {
+    width: 46vw;
+  }
+
+  .cs-bg6 {
+    width: 46vw;
+  }
+
+  .background-video6 {
+    width: 46vw;
+  }
+
+  .bg-cover6.color {
+    width: 46vw;
+  }
+
+  .cs7 {
+    width: 35vw;
+  }
+
+  .cs-bg7 {
+    width: 35vw;
+  }
+
+  .background-video7 {
+    width: 35vw;
+  }
+
+  .bg-cover7.color {
+    width: 35vw;
   }
 }
 
