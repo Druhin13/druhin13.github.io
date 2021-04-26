@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Apr 26 2021 05:42:34 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Apr 26 2021 06:10:57 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6085a59eb25c58a28fa8a9f9" data-wf-site="608243a202daed7d53744833" lang="en">
 <head>
   <meta charset="utf-8">
@@ -81,6 +81,8 @@
 .fade-up3 .tricksword {opacity: 0;}
 .fade-up4 .tricksword {opacity: 0;}
 .fade-up5 .tricksword {opacity: 0;}
+.fade-up6 .tricksword {opacity: 0;}
+.fade-up7 .tricksword {opacity: 0;}
 </style>
   <!--  prefecting the work page 
 <link rel="prefetch" href="/work">
@@ -134,7 +136,7 @@ window.onbeforeunload = function () {
               <div class="bg-cover color"></div>
             </div>
             <div class="div-block-6">
-              <div class="cs-heading data9">STAMURAI - WEB DESIGN</div>
+              <div id="scroll-in" class="cs-heading data9 fade-up tricks">STAMURAI - WEB DESIGN</div>
               <p class="paragraph-2">Designed a responsive landing page for an app named &#x27;Stamurai&#x27; that helps people who stutter. Defined useful features with PMs and Devs. Worked across a range of disciplines including wireframing to creating pixel-perfect mockups &amp; interactions. Boosted conversions by optimizing the UI, and achieved a 166% growth in user engagement within 3 months.</p>
             </div>
           </div>
@@ -147,7 +149,7 @@ window.onbeforeunload = function () {
               <div class="bg-cover2 color"></div>
             </div>
             <div class="div-block-6">
-              <div class="cs-heading data10">INSANE DEALS - WEBAPP</div>
+              <div id="scroll-in2" class="cs-heading data10 fade-up2 tricks">INSANE DEALS - WEBAPP</div>
               <p class="paragraph-2">Designed an e-commerce website from scratch named &#x27;InsaneDeals&#x27;. Built an intuitive user experience with a mobile-first mindset, while still keeping the interaction patterns consistent for desktop. Collaborated with the PM and the dev team to ideate, design, and implement new features.</p>
             </div>
           </div>
@@ -164,7 +166,7 @@ window.onbeforeunload = function () {
               <div class="bg-cover3 color"></div>
             </div>
             <div class="div-block-6">
-              <div class="cs-heading data11">FATHOM OPTICS - WEB DESIGN</div>
+              <div id="scroll-in3" class="cs-heading data11 fade-up3 tricks">FATHOM OPTICS - WEB DESIGN</div>
               <p class="paragraph-2">Designed an e-commerce website from scratch named &#x27;InsaneDeals&#x27;. Built an intuitive user experience with a mobile-first mindset, while still keeping the interaction patterns consistent for desktop. Collaborated with the PM and the dev team to ideate, design, and implement new features.</p>
             </div>
           </div>
@@ -177,7 +179,7 @@ window.onbeforeunload = function () {
               <div class="bg-cover4 color"></div>
             </div>
             <div class="div-block-6">
-              <div class="cs-heading data12">MAUSUMI.IN - WEB DESIGN</div>
+              <div id="scroll-in4" class="cs-heading data12 fade-up4 tricks">MAUSUMI.IN - WEB DESIGN</div>
               <p class="paragraph-2">Designed and developed an online book showcase to highlight the work of Mausumi Tarafder, a Bengali writer, with her writings modeled after her beliefs, perceptions, and words of love.</p>
             </div>
           </div>
@@ -195,7 +197,7 @@ window.onbeforeunload = function () {
                 <div class="bg-cover5 color"></div>
               </div>
               <div class="div-block-6">
-                <div class="cs-heading data13">KERALAONROAD - MOBILE WEB</div>
+                <div id="scroll-in5" class="cs-heading data13 fade-up5 tricks">KERALAONROAD - MOBILE WEB</div>
                 <p class="paragraph-2">Redesigned and prototyped the mobile onboarding experience for &#x27;KeralaOnRoad&#x27;, a platform connecting car buyers and sellers in Kerala. Collaborated with the Backend team to deploy new features helping customers to make a decision. Optimized the UI and increased the User engagement by 35% within a month.</p>
               </div>
             </div>
@@ -209,7 +211,7 @@ window.onbeforeunload = function () {
               <div class="bg-cover6 color"></div>
             </div>
             <div class="div-block-6">
-              <div class="cs-heading data14">BUZZOMS - REBRANDING / WEB DESIGN</div>
+              <div id="scroll-in6" class="cs-heading data14 fade-up6 tricks">BUZZOMS - REBRANDING / WEB DESIGN</div>
               <p class="paragraph-2">Collaborated with 3 multi-disciplinary creatives with specialties in branding, creative strategy, and copywriting in a 48-hour rebranding session. Our deliverables for &#x27;Buzzoms&#x27; included a copywriting strategy, brand identity, investor pitch deck, and redesigned landing page for their e-commerce platform.</p>
             </div>
           </div>
@@ -226,7 +228,7 @@ window.onbeforeunload = function () {
               <div class="bg-cover7 color"></div>
             </div>
             <div class="div-block-6">
-              <div class="cs-heading data15">KHATABOOK - STRATEGY</div>
+              <div id="scroll-in7" class="cs-heading data15 fade-up7 tricks">KHATABOOK - STRATEGY</div>
               <p class="paragraph-2">Planned and designed a business strategy for a few added new features on an app named &#x27;Khatabook&#x27;, a ledger / business management app for MSMEs, and implemented those design ideas into working prototypes and analyzed user feedback to assess its validity.</p>
             </div>
           </div>
@@ -689,6 +691,36 @@ fadeUp5
     duration: 1000,
     delay: (el, i) => 50 * i
   });  
+var fadeUp6 = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
+fadeUp6 
+  .add({
+    targets: '.fade-up6 .tricksword',
+    translateY: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    rotateZ: [30,0],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: (el, i) => 50 * i
+  }); 
+var fadeUp7 = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
+fadeUp7 
+  .add({
+    targets: '.fade-up7 .tricksword',
+    translateY: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    rotateZ: [30,0],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: (el, i) => 50 * i
+  });   
 // Wait before playing animation
 setTimeout(() => {  
 	// Put the play below this line
@@ -733,6 +765,20 @@ $('#scroll-in4').on('inview', function(event, isInView) {
 $('#scroll-in5').on('inview', function(event, isInView) {
   if (isInView) {
   fadeUp5.play();
+		// Put the play below this line
+  } else {
+  }
+});
+$('#scroll-in6').on('inview', function(event, isInView) {
+  if (isInView) {
+  fadeUp6.play();
+		// Put the play below this line
+  } else {
+  }
+});
+$('#scroll-in7').on('inview', function(event, isInView) {
+  if (isInView) {
+  fadeUp7.play();
 		// Put the play below this line
   } else {
   }
