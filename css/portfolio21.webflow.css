@@ -310,6 +310,11 @@ body {
   padding-bottom: 9.5vh;
 }
 
+.section-4.work-page {
+  padding-top: 8.5vh;
+  padding-bottom: 10vh;
+}
+
 .feedback {
   width: 26vw;
   margin-right: 4vw;
@@ -329,6 +334,10 @@ body {
   padding-top: 7.5vh;
   padding-bottom: 17.5vh;
   border-top: 2.5px solid #111920;
+}
+
+.section-5.work-page {
+  margin-top: 8.5vh;
 }
 
 ._3-col {
@@ -796,6 +805,35 @@ body {
 
 .div-block-7 {
   width: 100%;
+}
+
+.cs7 {
+  width: 26.5vw;
+}
+
+.cs-bg7 {
+  width: 26.5vw;
+  height: 13.85vh;
+  background-color: #1d1d1d;
+}
+
+.background-video7 {
+  position: absolute;
+  z-index: 2;
+  width: 26.5vw;
+  height: 13.85vh;
+  opacity: 1;
+}
+
+.bg-cover7 {
+  width: 26.5vw;
+  height: 13.85vh;
+}
+
+.bg-cover7.color {
+  position: absolute;
+  z-index: 3;
+  background-color: #000;
 }
 
 @media screen and (min-width: 1280px) {
