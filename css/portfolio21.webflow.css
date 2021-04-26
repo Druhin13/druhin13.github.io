@@ -900,6 +900,10 @@ body {
   font-size: 1.35vw;
 }
 
+.div-block-9 {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1280px) {
   .menu {
     border-style: solid solid none;
