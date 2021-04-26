@@ -1498,14 +1498,23 @@ body {
 
   .cs-bg {
     width: 100%;
+    height: 50vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
   .background-video {
     width: 90%;
+    height: 50vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
   .bg-cover.color {
     width: 90%;
+    height: 50vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
   .cs-heading {
@@ -1524,14 +1533,17 @@ body {
 
   .cs-bg2 {
     width: 100%;
+    height: 30vh;
   }
 
   .background-video2 {
     width: 90%;
+    height: 30vh;
   }
 
   .bg-cover2.color {
     width: 90%;
+    height: 30vh;
   }
 
   .cs3 {
@@ -1540,17 +1552,17 @@ body {
 
   .cs-bg3 {
     width: 100%;
-    height: 24vh;
+    height: 30vh;
   }
 
   .background-video3 {
     width: 90%;
-    height: 24vh;
+    height: 30vh;
   }
 
   .bg-cover3.color {
     width: 90%;
-    height: 24vh;
+    height: 30vh;
   }
 
   .cs4 {
@@ -1626,17 +1638,17 @@ body {
 
   .cs-bg6 {
     width: 100%;
-    height: 24vh;
+    height: 50vh;
   }
 
   .background-video6 {
     width: 90%;
-    height: 24vh;
+    height: 50vh;
   }
 
   .bg-cover6.color {
     width: 90%;
-    height: 24vh;
+    height: 50vh;
   }
 
   .cs7 {
