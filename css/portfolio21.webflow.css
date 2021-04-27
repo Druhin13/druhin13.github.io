@@ -996,7 +996,7 @@ h1 {
   align-items: flex-start;
 }
 
-.div-block-13 {
+.cs-content {
   width: 41.5vw;
   margin-left: 7vw;
 }
@@ -1004,7 +1004,7 @@ h1 {
 .cs-category {
   position: -webkit-sticky;
   position: sticky;
-  top: 0px;
+  top: 15vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
