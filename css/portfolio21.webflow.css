@@ -6,6 +6,14 @@ body {
   cursor: none;
 }
 
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: bold;
+}
+
 .body {
   background-color: #dedede;
   font-family: Helveticaneue, sans-serif;
@@ -253,6 +261,7 @@ body {
 }
 
 .section-2.cs-page {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -992,8 +1001,20 @@ body {
   margin-left: 7vw;
 }
 
-.div-block-14 {
+.cs-category {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 15vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .div-block-15 {
@@ -1010,11 +1031,41 @@ body {
 }
 
 .cs-body p {
-  width: 31.5vw;
+  width: 32.5vw;
   margin-top: 3vh;
-  margin-bottom: 0px;
+  margin-bottom: 7.5vh;
   font-size: 1.15vw;
   letter-spacing: -0.04vw;
+}
+
+.cs-body h1 {
+  margin-top: 7.5vh;
+  margin-bottom: 0px;
+}
+
+.extra-txt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1vh;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.15vw;
+  letter-spacing: -0.04vw;
+  text-decoration: underline;
+}
+
+.extra-txt.underline {
+  border-bottom: 1px solid #111920;
+}
+
+.extra-txt.sub {
+  margin-left: 2.5vw;
+  opacity: 0.6;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1280px) {
