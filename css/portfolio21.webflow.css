@@ -1561,6 +1561,7 @@ body {
   }
 
   .cs-bg.home-page {
+    display: block;
     height: 50vh;
     margin-bottom: 3vh;
   }
