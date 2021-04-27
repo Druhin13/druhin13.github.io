@@ -613,6 +613,10 @@ body {
   display: none;
 }
 
+.cs-bg.cs-page {
+  width: 100%;
+}
+
 .background-video {
   position: absolute;
   z-index: 2;
@@ -621,6 +625,10 @@ body {
   opacity: 0.6;
   -webkit-transition: border-radius 200ms ease;
   transition: border-radius 200ms ease;
+}
+
+.background-video.cs-page {
+  width: 91.75%;
 }
 
 .bg-cover {
@@ -634,6 +642,10 @@ body {
   background-color: #000;
   -webkit-transition: border-radius 200ms ease;
   transition: border-radius 200ms ease;
+}
+
+.bg-cover.color.cs-page {
+  width: 91.75%;
 }
 
 .div-block-6 {
@@ -1168,12 +1180,26 @@ body {
     height: 24vh;
   }
 
+  .cs-bg.cs-page {
+    height: 60vh;
+  }
+
   .background-video {
     height: 24vh;
   }
 
+  .background-video.cs-page {
+    width: 89.75%;
+    height: 60vh;
+  }
+
   .bg-cover.color {
     height: 24vh;
+  }
+
+  .bg-cover.color.cs-page {
+    width: 89.75%;
+    height: 60vh;
   }
 
   .cs-heading {
@@ -1566,6 +1592,12 @@ body {
     margin-bottom: 3vh;
   }
 
+  .cs-bg.cs-page {
+    display: block;
+    height: 60vh;
+    margin-bottom: 3vh;
+  }
+
   .background-video {
     width: 90%;
     height: 50vh;
@@ -1577,6 +1609,10 @@ body {
     height: 50vh;
   }
 
+  .background-video.cs-page {
+    height: 60vh;
+  }
+
   .bg-cover.color {
     width: 90%;
     height: 50vh;
@@ -1586,6 +1622,10 @@ body {
 
   .bg-cover.color.home-page {
     height: 50vh;
+  }
+
+  .bg-cover.color.cs-page {
+    height: 60vh;
   }
 
   .cs-heading {
