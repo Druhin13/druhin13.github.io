@@ -1202,6 +1202,10 @@ h1 {
     padding-bottom: 5vh;
   }
 
+  .section-2.cs-page {
+    padding-top: 5vh;
+  }
+
   .all {
     border-right-width: 1.5px;
     border-left-width: 1.5px;
@@ -1453,6 +1457,28 @@ h1 {
   .bg-cover7.color {
     width: 35vw;
   }
+
+  .cs-content {
+    margin-left: 6vw;
+  }
+
+  .cs-category {
+    width: 20vw;
+  }
+
+  .cs-body h2 {
+    font-size: 2.25vw;
+  }
+
+  .cs-body p {
+    width: 100%;
+    margin-bottom: 5vh;
+    font-size: 1.85vw;
+  }
+
+  .extra-txt {
+    font-size: 1.85vw;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1583,6 +1609,14 @@ h1 {
   .section-2.work-page {
     padding-top: 8vh;
     padding-bottom: 0vh;
+  }
+
+  .section-2.cs-page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .all {
@@ -1950,6 +1984,32 @@ h1 {
 
   .div-block-11 {
     width: 55%;
+  }
+
+  .cs-content {
+    width: 100%;
+    margin-left: 0vw;
+  }
+
+  .cs-category {
+    display: none;
+  }
+
+  .project-details {
+    margin-top: 5vh;
+    margin-left: 0vw;
+  }
+
+  .cs-body h2 {
+    font-size: 5vw;
+  }
+
+  .cs-body p {
+    font-size: 4vw;
+  }
+
+  .extra-txt {
+    font-size: 4vw;
   }
 }
 
