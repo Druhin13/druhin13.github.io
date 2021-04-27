@@ -14,6 +14,12 @@ h1 {
   font-weight: bold;
 }
 
+ul {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
 .body {
   background-color: #dedede;
   font-family: Helveticaneue, sans-serif;
@@ -1046,6 +1052,15 @@ h1 {
   margin-bottom: 0px;
 }
 
+.cs-body ul {
+  width: 32.5vw;
+  margin-top: -5vh;
+  margin-bottom: 2vh;
+  padding-left: 2vw;
+  font-size: 1.15vw;
+  letter-spacing: -0.04vw;
+}
+
 .extra-txt {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1473,6 +1488,13 @@ h1 {
   .cs-body p {
     width: 100%;
     margin-bottom: 5vh;
+    font-size: 1.85vw;
+  }
+
+  .cs-body ul {
+    width: 100%;
+    margin-top: -3vh;
+    padding-left: 3vw;
     font-size: 1.85vw;
   }
 
@@ -2005,6 +2027,11 @@ h1 {
   }
 
   .cs-body p {
+    font-size: 4vw;
+  }
+
+  .cs-body ul {
+    padding-left: 7vw;
     font-size: 4vw;
   }
 
