@@ -1017,7 +1017,10 @@ h1 {
   flex-direction: column;
 }
 
-.div-block-15 {
+.project-details {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 15vh;
   margin-left: 6vw;
 }
 
@@ -1066,6 +1069,14 @@ h1 {
   margin-left: 2.5vw;
   opacity: 0.6;
   text-decoration: none;
+}
+
+.extra-txt.sub.no-indent {
+  margin-left: 0vw;
+}
+
+.extra-txt.gap {
+  margin-top: 2.5vh;
 }
 
 @media screen and (min-width: 1280px) {
