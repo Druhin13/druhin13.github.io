@@ -1091,7 +1091,7 @@ blockquote {
 .cs-body blockquote {
   width: 32.5vw;
   margin-top: -5vh;
-  margin-bottom: 0px;
+  margin-bottom: 5vh;
   padding: 0px 0px 0px 2vw;
   border-left-color: rgba(17, 25, 32, 0.3);
   font-size: 1.15vw;
