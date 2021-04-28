@@ -28,6 +28,14 @@ ul {
   padding-left: 40px;
 }
 
+blockquote {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-left: 5px solid #e2e2e2;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .body {
   background-color: #dedede;
   font-family: Helveticaneue, sans-serif;
@@ -1080,6 +1088,17 @@ ul {
   letter-spacing: -0.04vw;
 }
 
+.cs-body blockquote {
+  width: 32.5vw;
+  margin-top: -5vh;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 2vw;
+  border-left-color: rgba(17, 25, 32, 0.3);
+  font-size: 1.15vw;
+  line-height: 1;
+  letter-spacing: -0.04vw;
+}
+
 .extra-txt {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1521,6 +1540,13 @@ ul {
     width: 100%;
     margin-bottom: 5vh;
     padding-left: 3vw;
+    font-size: 1.85vw;
+  }
+
+  .cs-body blockquote {
+    width: 100%;
+    margin-top: -3vh;
+    border-left-width: 4px;
     font-size: 1.85vw;
   }
 
@@ -2063,6 +2089,11 @@ ul {
 
   .cs-body h4 {
     padding-left: 7vw;
+    font-size: 4vw;
+  }
+
+  .cs-body blockquote {
+    width: 95%;
     font-size: 4vw;
   }
 
