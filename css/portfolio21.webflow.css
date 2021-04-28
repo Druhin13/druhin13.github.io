@@ -14,6 +14,14 @@ h1 {
   font-weight: bold;
 }
 
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
 ul {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -1061,6 +1069,17 @@ ul {
   letter-spacing: -0.04vw;
 }
 
+.cs-body h4 {
+  width: 32.5vw;
+  margin-top: 0px;
+  margin-bottom: 7.5vh;
+  padding-left: 2vw;
+  font-size: 1.15vw;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -0.04vw;
+}
+
 .extra-txt {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1494,6 +1513,13 @@ ul {
   .cs-body ul {
     width: 100%;
     margin-top: -3vh;
+    padding-left: 3vw;
+    font-size: 1.85vw;
+  }
+
+  .cs-body h4 {
+    width: 100%;
+    margin-bottom: 5vh;
     padding-left: 3vw;
     font-size: 1.85vw;
   }
@@ -2031,6 +2057,11 @@ ul {
   }
 
   .cs-body ul {
+    padding-left: 7vw;
+    font-size: 4vw;
+  }
+
+  .cs-body h4 {
     padding-left: 7vw;
     font-size: 4vw;
   }
