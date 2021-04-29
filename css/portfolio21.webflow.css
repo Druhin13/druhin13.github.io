@@ -1703,6 +1703,8 @@ blockquote {
   }
 
   .section-2.cs-page {
+    margin-right: 0vw;
+    margin-left: 0vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2088,23 +2090,34 @@ blockquote {
 
   .project-details {
     margin-top: 5vh;
-    margin-left: 0vw;
+    margin-left: 5vw;
   }
 
   .cs-body h2 {
+    margin-right: 5vw;
+    margin-left: 5vw;
     font-size: 5vw;
   }
 
   .cs-body p {
+    width: 90%;
+    margin-right: 5vw;
+    margin-left: 5vw;
     font-size: 4vw;
   }
 
   .cs-body ul {
+    width: 90%;
+    margin-right: 5vw;
+    margin-left: 5vw;
     padding-left: 7vw;
     font-size: 4vw;
   }
 
   .cs-body h4 {
+    width: 90%;
+    margin-right: 5vw;
+    margin-left: 5vw;
     padding-left: 7vw;
     font-size: 4vw;
   }
@@ -2112,6 +2125,10 @@ blockquote {
   .cs-body blockquote {
     width: 95%;
     font-size: 4vw;
+  }
+
+  .cs-body img {
+    margin-bottom: 5vh;
   }
 
   .extra-txt {
