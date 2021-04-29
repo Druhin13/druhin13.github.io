@@ -22,6 +22,14 @@ h4 {
   font-weight: bold;
 }
 
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
 ul {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -1111,6 +1119,16 @@ blockquote {
   margin-bottom: 6vh;
 }
 
+.cs-body h5 {
+  width: 32.5vw;
+  margin-top: -3vh;
+  margin-bottom: 7.5vh;
+  font-size: 1.15vw;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -0.04vw;
+}
+
 .extra-txt {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1582,6 +1600,13 @@ blockquote {
   .cs-body img {
     margin-top: -3vh;
     margin-bottom: 4vh;
+  }
+
+  .cs-body h5 {
+    width: 100%;
+    margin-top: -2vh;
+    margin-bottom: 5vh;
+    font-size: 1.85vw;
   }
 
   .extra-txt {
@@ -2146,6 +2171,14 @@ blockquote {
 
   .cs-body img {
     margin-bottom: 5vh;
+  }
+
+  .cs-body h5 {
+    width: 90%;
+    margin-top: -3vh;
+    margin-bottom: 6vh;
+    margin-left: 5vw;
+    font-size: 4vw;
   }
 
   .extra-txt {
