@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Apr 29 2021 05:11:13 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Apr 29 2021 05:15:27 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6087b0785ea3a9813aac33a9" data-wf-site="608243a202daed7d53744833" lang="en">
 <head>
   <meta charset="utf-8">
@@ -118,7 +118,7 @@ window.onbeforeunload = function () {
       </div>
       <nav data-w-id="0707ce6c-5d5c-628b-25de-96a49482abb2" class="menu-fixed">
         <div id="work" data-w-id="c996f3e5-9337-7168-f796-565c762f770b" class="text30 diff data7">About</div>
-        <div id="contact" data-w-id="bbe43aaa-dea9-98f7-9b2a-68220e1ef537" class="text30 diff data8">Contact</div>
+        <div id="contact" data-w-id="bbe43aaa-dea9-98f7-9b2a-68220e1ef537" class="text30 diff data8">Work</div>
       </nav>
     </div>
     <div data-w-id="8cff9fb7-6bd0-542d-41f2-35f4bf5b482b" class="all smooth-scroll-wrapper">
@@ -489,17 +489,20 @@ noise();</script>
 </script>
  -->
   <script>
-$('#contact').click(function(){
-  $('html,body').animate({scrollTop: document.body.scrollHeight},"slow");
-});
-</script>
-  <script>
 $('#work').click(function(){
   $("html, body").animate({ scrollTop: 0 }, "fast");
 });
 $("#work").click(function () {
 		setTimeout(function () {
 		window.location = "/";
+	}, 2500);
+});
+$('#contact').click(function(){
+  $("html, body").animate({ scrollTop: 0 }, "fast");
+});
+$("#contact").click(function () {
+		setTimeout(function () {
+		window.location = "/work";
 	}, 2500);
 });
 $('#gototop').click(function(){
