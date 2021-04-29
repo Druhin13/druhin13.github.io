@@ -1137,11 +1137,22 @@ blockquote {
 }
 
 .extra-txt.sub.no-indent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: 0vw;
 }
 
 .extra-txt.gap {
   margin-top: 2.5vh;
+}
+
+.link-block-3 {
+  display: inline;
+  color: #111920;
+  text-decoration: none;
+  cursor: none;
 }
 
 @media screen and (min-width: 1280px) {
