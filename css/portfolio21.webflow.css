@@ -28,6 +28,11 @@ ul {
   padding-left: 40px;
 }
 
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
 blockquote {
   margin-bottom: 10px;
   padding: 10px 20px;
@@ -1069,6 +1074,7 @@ blockquote {
 }
 
 .cs-body ul {
+  overflow: visible;
   width: 32.5vw;
   margin-top: -5vh;
   margin-bottom: 2vh;
@@ -1097,6 +1103,12 @@ blockquote {
   font-size: 1.15vw;
   line-height: 1;
   letter-spacing: -0.04vw;
+}
+
+.cs-body img {
+  display: block;
+  margin-top: -5vh;
+  margin-bottom: 6vh;
 }
 
 .extra-txt {
@@ -1548,6 +1560,11 @@ blockquote {
     margin-top: -3vh;
     border-left-width: 4px;
     font-size: 1.85vw;
+  }
+
+  .cs-body img {
+    margin-top: -3vh;
+    margin-bottom: 4vh;
   }
 
   .extra-txt {
