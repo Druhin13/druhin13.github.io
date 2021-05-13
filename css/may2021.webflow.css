@@ -27,9 +27,7 @@
   width: 100vw;
   height: 100vh;
   padding-top: 0.75vh;
-  border-style: solid;
-  border-width: 1px 1px 0px;
-  border-color: transparent;
+  border: 0px solid transparent;
   border-radius: 45px 45px 0px 0px;
   background-color: #050505;
 }
@@ -242,9 +240,7 @@
   display: flex;
   width: 100vw;
   padding: 15vh 4vw 12vh;
-  border-style: solid;
-  border-width: 0px 1px;
-  border-color: transparent;
+  border: 0px solid transparent;
   background-color: #050505;
 }
 
@@ -1510,6 +1506,18 @@
   text-decoration: none;
 }
 
+.grain {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 200;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     border-top-left-radius: 35px;
@@ -2129,6 +2137,7 @@
 
   .home-hero-vid {
     height: 74vh;
+    margin-top: 1vw;
     border-radius: 30px;
   }
 
