@@ -402,7 +402,7 @@
 }
 
 .text-block-3 {
-  margin-top: 3.25vh;
+  margin-top: 2vh;
   color: silver;
   font-size: 1.145vw;
   line-height: 1.05;
@@ -1530,7 +1530,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 @media screen and (max-width: 991px) {
@@ -2773,7 +2773,7 @@
   font-family: 'Palatino linotype c';
   src: url('../fonts/palai.woff2') format('woff2');
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
   font-display: swap;
 }
 @font-face {
