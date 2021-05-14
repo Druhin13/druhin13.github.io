@@ -1572,7 +1572,7 @@
   bottom: 0%;
   z-index: 200;
   display: block;
-  background-image: url('../images/redoverlay.svg');
+  background-image: url('../images/redoverlay.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
