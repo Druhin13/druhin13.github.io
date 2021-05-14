@@ -665,11 +665,23 @@
 }
 
 .menu-item.data1 {
+  -webkit-transition: letter-spacing 200ms ease;
+  transition: letter-spacing 200ms ease;
   color: #ededed;
 }
 
+.menu-item.data1:hover {
+  letter-spacing: 0.15vw;
+}
+
 .menu-item.data2 {
+  -webkit-transition: letter-spacing 200ms ease;
+  transition: letter-spacing 200ms ease;
   color: #ededed;
+}
+
+.menu-item.data2:hover {
+  letter-spacing: 0.15vw;
 }
 
 .menu-item.loading {
@@ -1418,17 +1430,29 @@
 
 .text-span-32 {
   border-bottom: 1px solid silver;
+  -webkit-transition: letter-spacing 200ms ease;
+  transition: letter-spacing 200ms ease;
   font-size: 1.2vw;
   letter-spacing: -0.06vw;
   text-transform: uppercase;
 }
 
+.text-span-32:hover {
+  letter-spacing: 0.15vw;
+}
+
 .social-text {
   border-bottom: 1px solid silver;
+  -webkit-transition: letter-spacing 200ms ease;
+  transition: letter-spacing 200ms ease;
   color: silver;
   font-size: 1.2vw;
   letter-spacing: -0.06vw;
   text-transform: uppercase;
+}
+
+.social-text:hover {
+  letter-spacing: 0.15vw;
 }
 
 .link {
