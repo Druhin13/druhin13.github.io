@@ -15,18 +15,18 @@
 	"prefer_related_applications": false,
 	"icons": [
 		{
-			"src": "https://raw.githubusercontent.com/mausumi-showcase/mausumi-showcase.github.io/main/assets/icon192.png",
+			"src": "https://uploads-ssl.webflow.com/609358f814171f792638bc3c/609413e013af074f6e4d7602_icon32.png",
 			"type": "image/png",
-			"sizes": "192x192"
+			"sizes": "32x32"
       },
 		{
-			"src": "https://raw.githubusercontent.com/mausumi-showcase/mausumi-showcase.github.io/main/assets/icon512.png",
+			"src": "https://uploads-ssl.webflow.com/609358f814171f792638bc3c/609413e6c05f4dfa2bbc0e3d_icon256.png",
 			"type": "image/png",
-			"sizes": "512x512"
+			"sizes": "256x256"
       },
 		{
-			"src": "https://raw.githubusercontent.com/mausumi-showcase/mausumi-showcase.github.io/main/assets/maskable_icon-mausumi196.png",
-			"sizes": "196x196",
+			"src": "https://uploads-ssl.webflow.com/609358f814171f792638bc3c/609e9d0132fac034bcda865a_maskable_icon_x1.png",
+			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any maskable"
     }
