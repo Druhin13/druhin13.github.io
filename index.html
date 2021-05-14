@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri May 14 2021 11:54:08 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri May 14 2021 12:18:41 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="609358f814171f605138bc3e" data-wf-site="609358f814171f792638bc3c" lang="en">
 <head>
   <meta charset="utf-8">
@@ -29,6 +29,10 @@
   overflow-x: hidden;
 }
 .body-overlay {
+  pointer-events: none;
+}
+.cursor-wrapper {
+  display: flex;
   pointer-events: none;
 }
 	/*	changing the selection color*/
@@ -68,6 +72,10 @@
 </style>
 </head>
 <body data-w-id="609358f814171f335a38bc3f" class="body">
+  <div class="cursor-wrapper">
+    <div data-w-id="729d5183-cbd7-0338-d862-8936623e37bf" class="cursor-circle"></div>
+    <div data-w-id="729d5183-cbd7-0338-d862-8936623e37c0" class="point"></div>
+  </div>
   <div id="work-link" class="menu-item loading">portfolio &#x27;21<br>DRUH.in</div>
   <div data-w-id="12ed4dc4-6dad-0af2-237d-4bf7d676155c" class="body-overlay"></div>
   <nav class="menu-bar">
