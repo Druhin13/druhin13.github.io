@@ -742,6 +742,10 @@ body {
   background-color: #050505;
 }
 
+.section-3.work-page {
+  padding-top: 17vh;
+}
+
 .case-study-vid {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1185,6 +1189,10 @@ body {
   width: 100vw;
   padding: 15vh 4vw 3vh;
   background-color: #050505;
+}
+
+.section-4.work-page {
+  padding-bottom: 15vh;
 }
 
 .text-span-22 {
@@ -1956,6 +1964,10 @@ body {
 
   .section-3 {
     padding: 10vh 4.5vw;
+  }
+
+  .section-3.work-page {
+    padding-top: 20vh;
   }
 
   .case-study-vid {
