@@ -1,0 +1,35 @@
+{
+	"dir": "ltr",
+	"lang": "en",
+	"name": "Druhin Tarafder - UX Designer Portfolio",
+	"short_name": "Druhin",
+	"scope": "/",
+	"display": "fullscreen",
+	"start_url": "https://druh.in/",
+	"background_color": "#ededed",
+  "theme_color": "#101010",
+	"description": "UX Designer specializing in Visual Design making interfaces more human, effective, and easy to use. I’m Druhin, a 19y/o designer currently freelancing. In the past, I have worked as a UI/UX designer with some digital agencies and a few mid-sized startups. In addition to that, I've also been a member of the Awwwards Young Jury for the past 8 months. Besides being a designer with around 3 years of experience, I also have the ability to bring my design ideas to life with a bit of my front-end coding skills.",
+	"orientation": "portrait",
+	"related_applications": [],
+	"categories": ["design", "coding", "ux", "portfolio"],
+	"prefer_related_applications": false,
+	"icons": [
+		{
+			"src": "https://raw.githubusercontent.com/mausumi-showcase/mausumi-showcase.github.io/main/assets/icon192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+      },
+		{
+			"src": "https://raw.githubusercontent.com/mausumi-showcase/mausumi-showcase.github.io/main/assets/icon512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+      },
+		{
+			"src": "https://raw.githubusercontent.com/mausumi-showcase/mausumi-showcase.github.io/main/assets/maskable_icon-mausumi196.png",
+			"sizes": "196x196",
+			"type": "image/png",
+			"purpose": "any maskable"
+    }
+    ],
+	"screenshots": []
+}
