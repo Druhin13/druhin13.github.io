@@ -1,3 +1,11 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: none;
+}
+
 .body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1378,11 +1386,13 @@
 .link-block {
   margin-left: 1.35vw;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-2 {
   margin-left: 1.35vw;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-3 {
@@ -1458,46 +1468,55 @@
 .link {
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-2 {
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-3 {
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-4 {
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-5 {
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-6 {
   color: silver;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-7 {
   border-bottom: 1px solid silver;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-8 {
   border-bottom: 1px solid silver;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-9 {
   border-bottom: 1px solid silver;
   text-decoration: none;
+  cursor: none;
 }
 
 .end {
@@ -1508,48 +1527,56 @@
 .link-10 {
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-5 {
   overflow: hidden;
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-6 {
   overflow: hidden;
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-7 {
   overflow: hidden;
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-8 {
   overflow: hidden;
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-9 {
   overflow: hidden;
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-10 {
   overflow: hidden;
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .link-block-11 {
   overflow: hidden;
   color: #111920;
   text-decoration: none;
+  cursor: none;
 }
 
 .grain {
