@@ -12,10 +12,10 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #ededed;
   font-family: 'Sk modernist', sans-serif;
   color: #ededed;
@@ -670,6 +670,28 @@
 
 .menu-item.data2 {
   color: #ededed;
+}
+
+.menu-item.loading {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 10%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #050505;
+  text-align: center;
 }
 
 .menu-title {
@@ -1525,7 +1547,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 200;
-  display: none;
+  display: block;
   background-image: url('../images/redoverlay.svg');
   background-position: 50% 50%;
   background-size: cover;
@@ -1822,6 +1844,10 @@
   .menu-item {
     margin-left: 2vw;
     font-size: 2vw;
+  }
+
+  .menu-item.loading {
+    margin-left: 0vw;
   }
 
   .menu-title {
