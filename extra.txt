@@ -2,3 +2,15 @@
 
 <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
 <script src="https://raw.githubusercontent.com/Druhin13/may2021/main/baffle-effect.js"></script>
+
+
+
+luxy.js
+
+<script async charset="utf-8">
+$(document).ready(function() {
+  setTimeout(function() {
+	var all = document.getElementById("all");
+	all.id = "luxy"; 
+  var isMobile=/iPhone|iPad|Android/i.test(navigator.userAgent);if(!isMobile){luxy.init({wrapper:'#luxy'});}},5000);});
+</script>
