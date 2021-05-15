@@ -1606,7 +1606,7 @@ body {
   right: 0%;
   bottom: 0%;
   z-index: 200;
-  display: block;
+  display: none;
   background-image: url('../images/redoverlay.png');
   background-position: 50% 50%;
   background-size: cover;
@@ -1622,10 +1622,7 @@ body {
   right: 0%;
   bottom: 0%;
   z-index: 1000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
