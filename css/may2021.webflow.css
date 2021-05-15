@@ -1954,6 +1954,14 @@ body {
     font-size: 2vw;
   }
 
+  .menu-item.data1:hover {
+    letter-spacing: 0vw;
+  }
+
+  .menu-item.data2:hover {
+    letter-spacing: 0vw;
+  }
+
   .menu-item.loading {
     margin-left: 0vw;
   }
@@ -2261,9 +2269,17 @@ body {
     letter-spacing: -0.1vw;
   }
 
+  .text-span-32:hover {
+    letter-spacing: 0vw;
+  }
+
   .social-text {
     font-size: 2vw;
     letter-spacing: -0.1vw;
+  }
+
+  .social-text:hover {
+    letter-spacing: 0vw;
   }
 
   .cursor-wrapper {
