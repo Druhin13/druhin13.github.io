@@ -1972,7 +1972,7 @@ body {
   }
 
   .section-3.work-page {
-    padding-top: 20vh;
+    padding-top: 3vh;
   }
 
   .case-study-vid {
@@ -2589,6 +2589,10 @@ body {
   .section-3 {
     padding-top: 10vh;
     padding-bottom: 5vh;
+  }
+
+  .section-3.work-page {
+    padding-top: 10vh;
   }
 
   .case-study-vid {
