@@ -413,7 +413,7 @@ body {
   margin-top: 2vh;
   color: silver;
   font-size: 1.145vw;
-  line-height: 1.05;
+  line-height: 1;
   letter-spacing: -0.057vw;
 }
 
@@ -437,6 +437,7 @@ body {
 
 .text-block-3.about {
   color: silver;
+  line-height: 1;
 }
 
 .text-span-6 {
