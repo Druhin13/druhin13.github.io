@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat May 15 2021 15:32:12 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat May 15 2021 16:06:31 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="609358f814171f605138bc3e" data-wf-site="609358f814171f792638bc3c" lang="en">
 <head>
   <meta charset="utf-8">
@@ -410,18 +410,18 @@ noise();</script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script src="https://min30327.github.io/luxy.js/src/js/luxy.js"></script>
   <script async="" charset="utf-8">
-$(document).ready(function(){setTimeout(function(){var all=document.getElementById("all");all.id="luxy";luxy.init({wrapper:'#luxy'});},5000);});
+var isMobile=/iPhone|iPad|Android/i.test(navigator.userAgent);
+$(document).ready(function(){setTimeout(function(){var all=document.getElementById("all");all.id="luxy";if(!isMobile){luxy.init({wrapper:'#luxy'});}},5000);});
 </script>
   <script>history.scrollRestoration="manual";$(window).on('beforeunload',function(){$(window).scrollTop(0);});</script>
   <script>
 // linking the case study pages with the case study cards
-$('#stamurai').click(function(){luxy.cancel({wrapper:'#luxy'});
-$("html, body").animate({scrollTop:0},"slow");
-});
+$('#stamurai').click(function(){if(!isMobile){luxy.cancel({wrapper:'#luxy'});}
+$("html, body").animate({scrollTop:0},"slow");});
 $("#stamurai").click(function(){
 setTimeout(function(){
 window.location="/stamurai";},3500);});
-$('#stamurai2').click(function(){luxy.cancel({wrapper:'#luxy'});
+$('#stamurai2').click(function(){if(!isMobile){luxy.cancel({wrapper:'#luxy'});}
 $("html,body").animate({scrollTop:0},"slow");});
 $("#stamurai2").click(function(){
 setTimeout(function(){
@@ -578,7 +578,7 @@ fadeUp5
     duration: 1000,
     delay: (el, i) => 50 * i
   });
-  var fadeUp6 = anime.timeline({
+var fadeUp6 = anime.timeline({
   loop: false,
   autoplay: false,
 });
