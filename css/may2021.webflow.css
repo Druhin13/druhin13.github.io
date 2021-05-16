@@ -327,7 +327,15 @@ body {
 }
 
 .txt-block.works {
+  display: none;
   width: 35vw;
+}
+
+.txt-block.works.horizontal {
+  display: inline-block;
+  width: 100vw;
+  padding-left: 4vw;
+  background-color: #050505;
 }
 
 .text-block-2 {
@@ -744,7 +752,7 @@ body {
 }
 
 .section-3.work-page {
-  padding-top: 17vh;
+  padding-top: 0vh;
 }
 
 .case-study-vid {
@@ -836,15 +844,25 @@ body {
 }
 
 .cs-holder1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-top: 5vh;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.cs-holder1.horizontal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  padding-left: 4vw;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .cs-card2 {
@@ -898,10 +916,7 @@ body {
 }
 
 .cs-holder2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-top: 23.15vh;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
@@ -909,9 +924,32 @@ body {
   align-items: flex-end;
 }
 
+.cs-holder2.horizontal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80vw;
+  margin-top: 0vh;
+  margin-left: 11.45vw;
+  padding-left: 4vw;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
 .cs-card3 {
   display: block;
   width: 36.3vw;
+}
+
+.cs-card3.horizontal {
+  margin-top: 33vh;
 }
 
 .case-study-vid3 {
@@ -964,6 +1002,10 @@ body {
   margin-left: 11.45vw;
 }
 
+.cs-card4.horizontal {
+  margin-top: 15vh;
+}
+
 .case-study-vid4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1009,15 +1051,27 @@ body {
 }
 
 .cs-holder3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-top: 23.15vh;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+}
+
+.cs-holder3.horizontal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  margin-top: 0vh;
+  margin-left: 8vw;
+  padding-left: 4vw;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .cs-card5 {
@@ -1131,7 +1185,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 18.5vh;
+  margin-top: 0vh;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
@@ -1660,6 +1714,46 @@ body {
   border-radius: 50%;
   background-color: #ededed;
   font-size: 1.5vw;
+}
+
+.horizontal-sec3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 285vw;
+  padding-top: 5vh;
+  background-color: #050505;
+}
+
+.camera {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 13vh;
+  overflow: hidden;
+  width: 100vw;
+  height: 87vh;
+  background-color: #050505;
+}
+
+.all-projects {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #050505;
+}
+
+.frame {
+  height: 100%;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 991px) {
@@ -2289,6 +2383,10 @@ body {
   }
 
   .point {
+    display: none;
+  }
+
+  .horizontal-sec3 {
     display: none;
   }
 }
