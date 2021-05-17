@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon May 17 2021 00:23:09 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon May 17 2021 00:53:54 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60a122989278885d1288f952" data-wf-site="609358f814171f792638bc3c" lang="en">
 <head>
   <meta charset="utf-8">
@@ -87,7 +87,7 @@
       <div class="menu-title">druhin<br>Portfolio ‘21</div>
     </div>
     <div class="menu">
-      <a href="#" data-w-id="db1afc7c-4056-d948-b60d-d67ac9bc7cb5" class="link-block w-inline-block">
+      <a href="#works" data-w-id="db1afc7c-4056-d948-b60d-d67ac9bc7cb5" class="link-block w-inline-block">
         <div id="work-link" class="menu-item data1">Works</div>
       </a>
       <a href="#contact" data-w-id="db1afc7c-4056-d948-b60d-d67ac9bc7cb8" class="link-block-2 w-inline-block">
@@ -499,12 +499,12 @@ $("html,body").animate({scrollTop:0},"slow");});
 $("#stamurai2").click(function(){
 setTimeout(function(){
 window.location="/stamurai";},3000);});
-$('#insanedeals').click(function(){
+$('#insanedeals').click(function(){if(!isMobile){luxy.cancel({wrapper:'#luxy'});}
 $("html,body").animate({scrollTop:0},"slow");});
 $("#insanedeals").click(function(){
 setTimeout(function(){
 window.location="/insanedeals";},3000);});
-$('#insanedeals2').click(function(){
+$('#insanedeals2').click(function(){if(!isMobile){luxy.cancel({wrapper:'#luxy'});}
 $("html,body").animate({scrollTop:0},"slow");});
 $("#insanedeals2").click(function(){
 setTimeout(function(){
