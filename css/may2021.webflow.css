@@ -2456,7 +2456,7 @@ body {
 
   .section-2 {
     padding-top: 13vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2680,7 +2680,7 @@ body {
   }
 
   .section-3.work-page {
-    padding-top: 10vh;
+    padding-top: 15vh;
   }
 
   .case-study-vid {
