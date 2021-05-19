@@ -733,7 +733,9 @@ body {
   -ms-flex-align: center;
   align-items: center;
   color: #050505;
+  font-size: 1vw;
   text-align: center;
+  letter-spacing: -0.05vw;
 }
 
 .menu-title {
@@ -2039,6 +2041,8 @@ body {
 
   .menu-item.loading {
     margin-left: 0vw;
+    font-size: 1.5vw;
+    letter-spacing: -0.075vw;
   }
 
   .menu-title {
@@ -2689,6 +2693,7 @@ body {
   }
 
   .menu-item.loading {
+    font-size: 3.75vw;
     letter-spacing: -0.1875vw;
   }
 
