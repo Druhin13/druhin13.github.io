@@ -478,8 +478,8 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 22.65vw;
-  margin-top: 6vh;
+  width: 20vw;
+  margin-top: 4.5vh;
   margin-left: 4.6vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1510,55 +1510,55 @@ body {
 .link {
   color: #111920;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .link-2 {
   color: #111920;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .link-3 {
   color: #111920;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .link-4 {
   color: #111920;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .link-5 {
   color: #111920;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .link-6 {
   color: silver;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .link-7 {
   border-bottom: 1px solid silver;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .link-8 {
   border-bottom: 1px solid silver;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .link-9 {
   border-bottom: 1px solid silver;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .end {
@@ -1568,7 +1568,7 @@ body {
 .link-10 {
   color: #111920;
   text-decoration: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 .link-block-5 {
@@ -1655,7 +1655,10 @@ body {
   right: 0%;
   bottom: 0%;
   z-index: 1000;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1717,6 +1720,18 @@ body {
   width: 100vw;
   border-radius: 45px 45px 0px 0px;
   opacity: 0.25;
+}
+
+.send-mail-text {
+  position: absolute;
+  display: none;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1vw;
+  letter-spacing: -0.0625vw;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px) {
