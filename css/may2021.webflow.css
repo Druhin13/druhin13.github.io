@@ -1752,6 +1752,18 @@ body {
   text-transform: uppercase;
 }
 
+.loading-project-text {
+  position: absolute;
+  display: none;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1vw;
+  letter-spacing: -0.0625vw;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     padding-top: 1vw;
