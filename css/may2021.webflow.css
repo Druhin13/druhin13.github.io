@@ -769,6 +769,7 @@ body {
 
 .section-3.work-page {
   padding-top: 10vh;
+  border: 0px solid transparent;
   background-color: transparent;
 }
 
@@ -1224,7 +1225,7 @@ body {
 }
 
 .section-4.work-page {
-  padding-bottom: 15vh;
+  padding-top: 5vh;
 }
 
 .text-span-22 {
@@ -1480,6 +1481,10 @@ body {
   padding: 3vh 4vw 10vh;
 }
 
+.section-6.work-page {
+  padding-top: 15vh;
+}
+
 .text-span-32 {
   border-bottom: 1px solid silver;
   -webkit-transition: letter-spacing 200ms ease;
@@ -1655,10 +1660,7 @@ body {
   right: 0%;
   bottom: 0%;
   z-index: 1000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
