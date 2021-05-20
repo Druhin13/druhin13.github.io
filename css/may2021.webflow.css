@@ -773,6 +773,12 @@ body {
   background-color: transparent;
 }
 
+.section-3.contact-page {
+  padding-top: 10vh;
+  border: 0px solid transparent;
+  background-color: transparent;
+}
+
 .case-study-vid {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1228,6 +1234,11 @@ body {
   padding-top: 5vh;
 }
 
+.section-4.contact-page {
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+}
+
 .text-span-22 {
   font-family: 'Sk modernist', sans-serif;
   font-size: 1vw;
@@ -1483,6 +1494,11 @@ body {
 
 .section-6.work-page {
   padding-top: 15vh;
+}
+
+.section-6.contact-page {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
 }
 
 .text-span-32 {
@@ -2072,6 +2088,10 @@ body {
   }
 
   .section-3.work-page {
+    padding-top: 3vh;
+  }
+
+  .section-3.contact-page {
     padding-top: 3vh;
   }
 
@@ -2726,6 +2746,10 @@ body {
 
   .section-3.work-page {
     padding-top: 15vh;
+  }
+
+  .section-3.contact-page {
+    padding-top: 10vh;
   }
 
   .case-study-vid {
