@@ -1,5 +1,9 @@
 
 
+// scrolling to the top, every page load/reload
+history.scrollRestoration="manual";$(window).on('beforeunload',function(){$(window).scrollTop(0);});
+
+
 // linking the case study pages with the case study cards
 
 $('#stamurai').click(function(){
