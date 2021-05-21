@@ -197,15 +197,33 @@ window.location="/buzzoms";},3000);
 ////////////////////////////////////////////////////////////
 
 $('#khatabook').click(function(){
-$("html,body").animate({scrollTop:0},"slow");});
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html, body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#khatabook").click(function(){
 setTimeout(function(){
-window.location="/khatabook";},3000);});
+window.location="/khatabook";},3000);
+});
 
 $('#khatabook2').click(function(){
-$("html,body").animate({scrollTop:0},"slow");});
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html,body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#khatabook2").click(function(){
 setTimeout(function(){
-window.location="/khatabook";},3000);});
+window.location="/khatabook";},3000);
+});
+
+////////////////////////////////////////////////////////////
