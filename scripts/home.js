@@ -1,31 +1,70 @@
+
+
 // linking the case study pages with the case study cards
-$('#stamurai').click(function(){if(!isMobile){luxy.cancel({wrapper:'#luxy'});}
-$("html, body").animate({scrollTop:0},"slow");});
+
+$('#stamurai').click(function(){
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html, body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#stamurai").click(function(){
 setTimeout(function(){
-window.location="/stamurai";},3000);});
+window.location="/stamurai";},3000);
+});
 
-$('#stamurai2').click(function(){if(!isMobile){luxy.cancel({wrapper:'#luxy'});}
-$("html,body").animate({scrollTop:0},"slow");});
+
+$('#stamurai2').click(function(){
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html,body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#stamurai2").click(function(){
 setTimeout(function(){
-window.location="/stamurai";},3000);});
+window.location="/stamurai";},3000);
+});
 
-$('#insanedeals').click(function(){if(!isMobile){luxy.cancel({wrapper:'#luxy'});}
-$("html,body").animate({scrollTop:0},"slow");});
+
+$('#insanedeals').click(function(){
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html,body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#insanedeals").click(function(){
 setTimeout(function(){
-window.location="/insanedeals";},3000);});
+window.location="/insanedeals";},3000);
+});
 
-$('#insanedeals2').click(function(){if(!isMobile){luxy.cancel({wrapper:'#luxy'});}
-$("html,body").animate({scrollTop:0},"slow");});
+
+$('#insanedeals2').click(function(){
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html,body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#insanedeals2").click(function(){
 setTimeout(function(){
-window.location="/insanedeals";},3000);});
+window.location="/insanedeals";},3000);
+});
+
 
 $('#fathomoptics').click(function(){
 $("html,body").animate({scrollTop:0},"slow");});
