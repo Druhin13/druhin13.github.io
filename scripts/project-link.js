@@ -165,18 +165,36 @@ window.location="/keralaonroad";},3000);
 ////////////////////////////////////////////////////////////
 
 $('#buzzoms').click(function(){
-$("html,body").animate({scrollTop:0},"slow");});
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html, body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#buzzoms").click(function(){
 setTimeout(function(){
-window.location="/buzzoms";},3000);});
+window.location="/buzzoms";},3000);
+});
 
 $('#buzzoms2').click(function(){
-$("html,body").animate({scrollTop:0},"slow");});
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html,body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#buzzoms2").click(function(){
 setTimeout(function(){
-window.location="/buzzoms";},3000);});
+window.location="/buzzoms";},3000);
+});
+
+////////////////////////////////////////////////////////////
 
 $('#khatabook').click(function(){
 $("html,body").animate({scrollTop:0},"slow");});
