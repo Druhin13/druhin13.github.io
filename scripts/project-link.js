@@ -1,5 +1,3 @@
-
-
 // scrolling to the top, every page load/reload
 history.scrollRestoration="manual";$(window).on('beforeunload',function(){$(window).scrollTop(0);});
 
@@ -21,7 +19,6 @@ setTimeout(function(){
 window.location="/stamurai";},3000);
 });
 
-
 $('#stamurai2').click(function(){
   if(!isMobile){
     luxy.cancel({
@@ -37,6 +34,7 @@ setTimeout(function(){
 window.location="/stamurai";},3000);
 });
 
+////////////////////////////////////////////////////////////
 
 $('#insanedeals').click(function(){
   if(!isMobile){
@@ -53,7 +51,6 @@ setTimeout(function(){
 window.location="/insanedeals";},3000);
 });
 
-
 $('#insanedeals2').click(function(){
   if(!isMobile){
     luxy.cancel({
@@ -69,34 +66,71 @@ setTimeout(function(){
 window.location="/insanedeals";},3000);
 });
 
+////////////////////////////////////////////////////////////
 
 $('#fathomoptics').click(function(){
-$("html,body").animate({scrollTop:0},"slow");});
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html, body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#fathomoptics").click(function(){
 setTimeout(function(){
-window.location="/fathomoptics";},3000);});
+window.location="/fathomoptics";},3000);
+});
 
 $('#fathomoptics2').click(function(){
-$("html,body").animate({scrollTop:0},"slow");});
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html,body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#fathomoptics2").click(function(){
 setTimeout(function(){
-window.location="/fathomoptics";},3000);});
+window.location="/fathomoptics";},3000);
+});
+
+////////////////////////////////////////////////////////////
 
 $('#mausumi').click(function(){
-$("html,body").animate({scrollTop:0},"slow");});
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html, body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#mausumi").click(function(){
 setTimeout(function(){
-window.location="/mausumi";},3000);});
+window.location="/mausumi";},3000);
+});
 
 $('#mausumi2').click(function(){
-$("html,body").animate({scrollTop:0},"slow");});
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html,body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#mausumi2").click(function(){
 setTimeout(function(){
-window.location="/mausumi";},3000);});
+window.location="/mausumi";},3000);
+});
+
+////////////////////////////////////////////////////////////
 
 $('#keralaonroad').click(function(){
 $("html,body").animate({scrollTop:0},"slow");});
