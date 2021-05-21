@@ -133,19 +133,36 @@ window.location="/mausumi";},3000);
 ////////////////////////////////////////////////////////////
 
 $('#keralaonroad').click(function(){
-$("html,body").animate({scrollTop:0},"slow");});
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html, body").animate({
+  scrollTop:0},"slow");
+});
 
 $("#keralaonroad").click(function(){
 setTimeout(function(){
-window.location="/keralaonroad";},3000);});
+window.location="/keralaonroad";},3000);
+});
 
 $('#keralaonroad2').click(function(){
-  $("html, body").animate({ scrollTop: 0 }, "slow");
+  if(!isMobile){
+    luxy.cancel({
+      wrapper:'#luxy'
+    });
+  }
+$("html,body").animate({
+  scrollTop:0},"slow");
 });
 
 $("#keralaonroad2").click(function(){
 setTimeout(function(){
-window.location="/keralaonroad";},3000);});
+window.location="/keralaonroad";},3000);
+});
+
+////////////////////////////////////////////////////////////
 
 $('#buzzoms').click(function(){
 $("html,body").animate({scrollTop:0},"slow");});
