@@ -1793,14 +1793,19 @@ body {
 }
 
 .div-block-11 {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: 10;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 13vw;
-  margin-top: -1vh;
+  margin-top: 15vh;
+  margin-left: 4vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1810,17 +1815,23 @@ body {
 
 .div-block-12 {
   width: 32vw;
-  margin-left: 9vw;
+  margin-left: 22vw;
 }
 
 .div-block-13 {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: 10;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 13vw;
-  margin-top: -1vh;
-  margin-left: 16vw;
+  margin-top: 15vh;
+  margin-left: 74vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1949,6 +1960,24 @@ body {
 .link-block-12-copy {
   margin-top: 1vh;
   text-decoration: none;
+}
+
+.div-block-13-mobile {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: 10;
+  display: none;
+  width: 13vw;
+  margin-top: -1vh;
+  margin-left: 16vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 991px) {
@@ -2633,12 +2662,12 @@ body {
 
   .div-block-12 {
     width: 40vw;
-    margin-left: 5vw;
+    margin-left: 23vw;
   }
 
   .div-block-13 {
     width: 18vw;
-    margin-left: 8vw;
+    margin-left: 75vw;
   }
 
   .image-2 {
@@ -2672,6 +2701,11 @@ body {
   .cs-link.about {
     font-size: 1.5vw;
     letter-spacing: -0.075vw;
+  }
+
+  .div-block-13-mobile {
+    width: 18vw;
+    margin-left: 75vw;
   }
 }
 
@@ -3375,6 +3409,7 @@ body {
   }
 
   .div-block-13 {
+    display: none;
     width: 100%;
     margin-top: 10vh;
     margin-left: 0vw;
@@ -3419,6 +3454,16 @@ body {
     margin-top: 3vh;
     font-size: 3.75vw;
     letter-spacing: -0.1875vw;
+  }
+
+  .div-block-13-mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 10vh;
+    margin-left: 0vw;
   }
 }
 
