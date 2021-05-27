@@ -1610,7 +1610,7 @@ body {
   overflow: hidden;
   color: #111920;
   text-decoration: none;
-  cursor: pointer;
+  cursor: default;
 }
 
 .link-block-6 {
