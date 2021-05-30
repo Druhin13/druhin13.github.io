@@ -2008,6 +2008,10 @@ body {
   padding-bottom: 3vh;
 }
 
+.text-block-5 {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     padding-top: 1vw;
