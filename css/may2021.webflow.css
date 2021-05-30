@@ -1791,9 +1791,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 15vh;
-  padding-right: 4vw;
-  padding-left: 4vw;
+  padding: 15vh 4vw;
 }
 
 .div-block-11 {
@@ -2003,6 +2001,11 @@ body {
   display: none;
   border-radius: 15px;
   box-shadow: 1px 0 20px 0 rgba(5, 5, 5, 0.1);
+}
+
+.next-cs {
+  width: 100vw;
+  padding-bottom: 5vh;
 }
 
 @media screen and (max-width: 991px) {
