@@ -1515,6 +1515,10 @@ body {
   padding-bottom: 5vh;
 }
 
+.section-6.cs-page {
+  padding-top: 15vh;
+}
+
 .text-span-32 {
   border-bottom: 1px solid silver;
   -webkit-transition: letter-spacing 200ms ease;
