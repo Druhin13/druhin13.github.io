@@ -1999,6 +1999,12 @@ body {
   text-decoration: none;
 }
 
+.round-loope2 {
+  display: none;
+  border-radius: 15px;
+  box-shadow: 1px 0 20px 0 rgba(5, 5, 5, 0.1);
+}
+
 @media screen and (max-width: 991px) {
   .section {
     padding-top: 1vw;
@@ -2725,6 +2731,10 @@ body {
   .div-block-13-mobile {
     width: 18vw;
     margin-left: 75vw;
+  }
+
+  .round-loope2 {
+    border-radius: 10px;
   }
 }
 
