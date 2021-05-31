@@ -1716,6 +1716,8 @@ body {
   border: 1px solid transparent;
   border-radius: 50%;
   background-color: hsla(0, 0%, 92.9%, 0.2);
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
 }
 
 .point {
