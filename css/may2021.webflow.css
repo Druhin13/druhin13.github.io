@@ -2979,6 +2979,7 @@ body {
 
   .txt-block.cs-details {
     width: 96%;
+    margin-top: 6.5vh;
   }
 
   .text-block-2 {
@@ -3480,6 +3481,7 @@ body {
 
   .section-6 {
     padding-top: 10vh;
+    padding-bottom: 7.5vh;
   }
 
   .text-span-32 {
