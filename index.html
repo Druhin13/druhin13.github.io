@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon May 31 2021 04:03:04 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon May 31 2021 04:35:01 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60a122989278885d1288f952" data-wf-site="609358f814171f792638bc3c" lang="en">
 <head>
   <meta charset="utf-8">
@@ -39,7 +39,10 @@
   display: flex;
   pointer-events: none;
 }
-	/*	changing the selection color*/
+.cursor-circle {
+	opacity: 0;
+}
+/*	changing the selection color*/
 	::-moz-selection {
 		color: #101010;
 		background: #dedede;
@@ -78,7 +81,7 @@
 </head>
 <body data-w-id="609358f814171f335a38bc3f" class="body">
   <div class="cursor-wrapper">
-    <div data-w-id="729d5183-cbd7-0338-d862-8936623e37bf" class="cursor-circle"></div>
+    <div id="curs" data-w-id="729d5183-cbd7-0338-d862-8936623e37bf" class="cursor-circle"></div>
     <div data-w-id="c8d30d57-d961-380c-706c-36280d47036f" class="view-project-text">view project</div>
     <div data-w-id="695dbb5b-9171-fd3b-d808-c13c2747a5ef" class="loading-project-text">loading  Project</div>
   </div>
@@ -432,5 +435,13 @@ $(document).ready(function(){setTimeout(function(){var all=document.getElementBy
   <!--  text animation  -->
   <script src="https://druh.in/scripts/text-anim-home.js"></script>
   <script>(function(h,e,a,t,m,p){m=e.createElement(a);m.async=!0;m.src=t;p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);})(window,document,'script','https://u.heatmap.it/log.js');</script>
+  <script>
+$(document).mouseleave(function () {
+    document.getElementById("curs").style.opacity = "0";
+});
+$(document).mouseenter(function () {
+    document.getElementById("curs").style.opacity = "1";
+});
+</script>
 </body>
 </html>
