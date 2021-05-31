@@ -2020,6 +2020,12 @@ body {
   text-decoration: none;
 }
 
+.cs-link.under-dev {
+  display: block;
+  margin-top: 1vh;
+  opacity: 0.6;
+}
+
 .link-block-12 {
   margin-top: 1vh;
   text-decoration: none;
