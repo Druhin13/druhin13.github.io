@@ -249,6 +249,57 @@ fadeUp14
     delay: (el, i) => 50 * i
 });
 
+var fadeUp15 = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
+
+fadeUp15 
+.add({
+    targets: '.fade-up15 .tricksword',
+    translateY: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    rotateZ: [30,0],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: (el, i) => 50 * i
+});
+
+var fadeUp16 = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
+
+fadeUp16 
+.add({
+    targets: '.fade-up16 .tricksword',
+    translateY: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    rotateZ: [30,0],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: (el, i) => 50 * i
+});
+
+var fadeUp17 = anime.timeline({
+  loop: false,
+  autoplay: false,
+});
+
+fadeUp17 
+.add({
+    targets: '.fade-up17 .tricksword',
+    translateY: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    rotateZ: [30,0],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: (el, i) => 50 * i
+});
+
 // Play animation when scrolled into view
 $('#scroll-in').on('inview', function(event, isInView) {
 if (isInView) {
@@ -331,6 +382,24 @@ fadeUp13.play();
 $('#scroll-in14').on('inview', function(event, isInView) {
 if (isInView) {
 fadeUp14.play();
+} else {
+}
+});
+$('#scroll-in15').on('inview', function(event, isInView) {
+if (isInView) {
+fadeUp15.play();
+} else {
+}
+});
+$('#scroll-in16').on('inview', function(event, isInView) {
+if (isInView) {
+fadeUp16.play();
+} else {
+}
+});
+$('#scroll-in17').on('inview', function(event, isInView) {
+if (isInView) {
+fadeUp17.play();
 } else {
 }
 });
