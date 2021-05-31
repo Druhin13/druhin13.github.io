@@ -253,6 +253,10 @@ body {
   text-transform: uppercase;
 }
 
+.opening-title.fade-up17.tricks {
+  overflow: hidden;
+}
+
 .section-2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -431,6 +435,62 @@ body {
 }
 
 .text-block-2.fade-up4.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up3.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up4.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up5.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up6.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up7.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up8.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up9.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up10.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up11.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up12.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up13.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up14.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up15.tricks {
+  color: silver;
+}
+
+.text-block-2.fade-up16.tricks {
   color: silver;
 }
 
@@ -1989,17 +2049,21 @@ body {
 }
 
 .link-11 {
+  border-bottom: 1px solid #000;
   color: silver;
+  line-height: 1.35;
   text-decoration: none;
 }
 
 .link-12 {
   color: silver;
+  line-height: 1.35;
   text-decoration: none;
 }
 
 .link-13 {
   color: silver;
+  line-height: 1.35;
   text-decoration: none;
 }
 
@@ -2016,6 +2080,18 @@ body {
 
 .text-block-5 {
   display: none;
+}
+
+.text-span-35 {
+  border-bottom: 1px solid silver;
+}
+
+.text-span-36 {
+  border-bottom: 1px solid silver;
+}
+
+.text-span-37 {
+  border-bottom: 1px solid silver;
 }
 
 @media screen and (max-width: 991px) {
