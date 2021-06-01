@@ -2138,6 +2138,10 @@ body {
   font-style: italic;
 }
 
+.text-span-41 {
+  border-bottom: 1px solid silver;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     padding-top: 1vw;
