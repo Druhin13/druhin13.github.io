@@ -535,6 +535,14 @@ body {
   margin-left: 2.5vw;
 }
 
+.text-block-3.indent.type2 {
+  margin-top: 3vh;
+}
+
+.text-block-3.type2 {
+  margin-top: 1.5vh;
+}
+
 .text-span-6 {
   font-family: 'Sk modernist', sans-serif;
   font-size: 1vw;
@@ -1938,6 +1946,24 @@ body {
   margin-bottom: 0px;
 }
 
+.list.indent.type2 {
+  margin-top: 3vh;
+}
+
+.list.indent.type3 {
+  margin-top: 0.5vh;
+  padding-left: 4.5vw;
+}
+
+.list.indent.type3.start {
+  margin-top: 1.5vh;
+}
+
+.list.type2 {
+  margin-top: 1.5vh;
+  margin-bottom: 0px;
+}
+
 .text-span-34 {
   font-style: italic;
 }
@@ -2097,6 +2123,14 @@ body {
 }
 
 .text-span-37 {
+  border-bottom: 1px solid silver;
+}
+
+.text-span-38 {
+  font-style: italic;
+}
+
+.text-span-39 {
   border-bottom: 1px solid silver;
 }
 
