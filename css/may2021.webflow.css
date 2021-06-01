@@ -2134,6 +2134,10 @@ body {
   border-bottom: 1px solid silver;
 }
 
+.text-span-40 {
+  font-style: italic;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     padding-top: 1vw;
@@ -2833,6 +2837,10 @@ body {
     padding-left: 3vw;
     font-size: 1.5vw;
     letter-spacing: -0.075vw;
+  }
+
+  .list.indent.type3 {
+    padding-left: 6vw;
   }
 
   .cs-link {
@@ -3584,6 +3592,10 @@ body {
     padding-left: 7vw;
     font-size: 3.75vw;
     letter-spacing: -0.1875vw;
+  }
+
+  .list.indent.type3 {
+    padding-left: 10vw;
   }
 
   .cs-link {
