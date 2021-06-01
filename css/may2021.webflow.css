@@ -1953,6 +1953,7 @@ body {
 .list.indent.type3 {
   margin-top: 0.5vh;
   padding-left: 4.5vw;
+  list-style-type: square;
 }
 
 .list.indent.type3.start {
