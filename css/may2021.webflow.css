@@ -1950,13 +1950,23 @@ body {
   margin-top: 3vh;
 }
 
-.list.indent.type3 {
+.list.indent.type4 {
   margin-top: 0.5vh;
   padding-left: 4.5vw;
   list-style-type: square;
 }
 
-.list.indent.type3.start {
+.list.indent.type4.start {
+  margin-top: 1.5vh;
+}
+
+.list.indent.type4 {
+  margin-top: 0.5vh;
+  padding-left: 4vw;
+  list-style-type: decimal;
+}
+
+.list.indent.type4.start {
   margin-top: 1.5vh;
 }
 
@@ -2169,6 +2179,11 @@ body {
 
 .text-span-45 {
   font-style: italic;
+}
+
+.list-item-2 {
+  padding-bottom: 5px;
+  padding-left: 0.5vw;
 }
 
 @media screen and (max-width: 991px) {
@@ -2872,7 +2887,11 @@ body {
     letter-spacing: -0.075vw;
   }
 
-  .list.indent.type3 {
+  .list.indent.type4 {
+    padding-left: 6vw;
+  }
+
+  .list.indent.type4 {
     padding-left: 6vw;
   }
 
@@ -3631,7 +3650,11 @@ body {
     letter-spacing: -0.1875vw;
   }
 
-  .list.indent.type3 {
+  .list.indent.type4 {
+    padding-left: 10vw;
+  }
+
+  .list.indent.type4 {
     padding-left: 10vw;
   }
 
