@@ -2030,7 +2030,7 @@ body {
 .cs-link.sub-head {
   display: block;
   margin-top: 1vh;
-  opacity: 0.6;
+  opacity: 0.7;
   text-decoration: none;
 }
 
@@ -2060,7 +2060,7 @@ body {
 .cs-link.under-dev {
   display: block;
   margin-top: 1vh;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .link-block-12 {
@@ -3687,6 +3687,10 @@ body {
     margin-top: 3vh;
     font-size: 3.75vw;
     letter-spacing: -0.1875vw;
+  }
+
+  .cs-link.sub-head2 {
+    opacity: 0.7;
   }
 
   .link-block-12 {
