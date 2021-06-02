@@ -2159,6 +2159,18 @@ body {
   padding-bottom: 5px;
 }
 
+.text-span-43 {
+  font-style: italic;
+}
+
+.text-span-44 {
+  font-style: italic;
+}
+
+.text-span-45 {
+  font-style: italic;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     padding-top: 1vw;
