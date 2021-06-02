@@ -1930,7 +1930,7 @@ body {
   height: auto;
   margin-top: 2vh;
   margin-bottom: 0vh;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .list {
@@ -3664,6 +3664,11 @@ body {
     margin-top: 3vh;
     font-size: 3.75vw;
     letter-spacing: -0.1875vw;
+  }
+
+  .link-block-12 {
+    margin-top: 0vh;
+    padding-bottom: 0.5vh;
   }
 
   .div-block-13-mobile {
