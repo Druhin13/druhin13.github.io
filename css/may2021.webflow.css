@@ -1960,6 +1960,10 @@ body {
   margin-top: 1.5vh;
 }
 
+.list.indent.type4.start.uo {
+  list-style-type: square;
+}
+
 .list.indent.type4 {
   margin-top: 0.5vh;
   padding-left: 4vw;
