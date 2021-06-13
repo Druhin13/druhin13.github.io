@@ -2306,6 +2306,10 @@ body {
   opacity: 0.95;
 }
 
+.background-video-4.type2.fathom {
+  height: 30vh;
+}
+
 .link-14 {
   border-bottom: 1px solid silver;
   color: silver;
@@ -3071,6 +3075,10 @@ body {
   .background-video-4 {
     height: 22vh;
     border-radius: 10px;
+  }
+
+  .background-video-4.type2.fathom {
+    height: 22vh;
   }
 }
 
@@ -3866,6 +3874,10 @@ body {
 
   .background-video-4 {
     height: 25vh;
+  }
+
+  .background-video-4.type2.fathom {
+    height: 22vh;
   }
 }
 
