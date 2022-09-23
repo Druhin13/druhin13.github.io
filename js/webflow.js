@@ -1,4 +1,5 @@
 window.location.href = "https://druh.in/coming-soon";
+window.location.replace("https://druh.in/coming-soon");
 /*!
  * Webflow: Front-end site library
  * @license MIT
