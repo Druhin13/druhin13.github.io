@@ -1,3 +1,4 @@
+window.location.href = "http://druh.in/coming-soon";
 /*!
  * Webflow: Front-end site library
  * @license MIT
