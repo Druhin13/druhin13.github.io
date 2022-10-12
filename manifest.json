@@ -1,12 +1,12 @@
 {
 	"dir": "ltr",
 	"lang": "en",
-	"name": "Portfolio '21",
+	"name": "Folio ‘22",
 	"short_name": "Druhin",
 	"scope": "/",
 	"display": "fullscreen",
 	"start_url": "https://druh.in",
-	"background_color": "#ededed",
+	"background_color": "#d2d2d2",
   	"theme_color": "#131313",
 	"description": "UX Designer specializing in Visual Design making interfaces more human, effective, and easy to use.",
 	"orientation": "portrait",
@@ -30,21 +30,5 @@
 			"type": "image/png",
 			"purpose": "any maskable"
     }
-    ],
-	"shortcuts": [
-    {
-      "name": "Selected Works",
-      "short_name": "Works",
-      "description": "Check the Case studies of some of Druhin's selected works.",
-      "url": "https://druh.in/work",
-      "icons": [{ "src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da232041c66c44d08767b8_works.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Contact",
-      "short_name": "Contact",
-      "description": "Feel free to reach out to me via email if you have a project in mind, or maybe just say 'hi'. I don't mind making new friends.",
-      "url": "https://druh.in/contact",
-      "icons": [{ "src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da2320e0c72d8cc71ed842_contact.png", "sizes": "192x192" }]
-    }
-  ]
+    ]
 }
