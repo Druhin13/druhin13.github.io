@@ -15,17 +15,17 @@
 	"prefer_related_applications": false,
 	"icons": [
 		{
-			"src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da24b8d75a73f2a3f4bfef_icon32.png",
+			"src": "https://druh.in/folio2022/images/icon32.png",
 			"type": "image/png",
 			"sizes": "32x32"
       },
 		{
-			"src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60d21f821c161c55718db6df_icon256.png",
+			"src": "https://druh.in/folio2022/images/icon256.png",
 			"type": "image/png",
 			"sizes": "256x256"
       },
 		{
-			"src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da246c1b226a4f440d5ced_maskable_icon.png",
+			"src": "https://druh.in/folio2022/images/icon512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any maskable"
