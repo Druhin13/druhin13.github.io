@@ -1,4 +1,4 @@
-<a href="https://druh.in"><img src="https://user-images.githubusercontent.com/46156118/102313051-df105a80-3f95-11eb-9317-9527542a3eb0.png"></a>
+<a href="https://druh.in"><img src="https://druh.in/folio2022/images/icon100.png"></a>
 
 
 # UX Portfolio <br>
